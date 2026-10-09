@@ -1,0 +1,1049 @@
+function AdminLayout() {
+  const [adminToast, setAdminToast] = useState<{text: string, isError?: boolean} | null>(null);
+  const showToast = (text: string, isError = false) => {
+    setAdminToast({text, isError});
+    setTimeout(() => setAdminToast(null), 3000);
+  };
+  return (
+    <div className="min-h-screen bg-[#f1f1f1] flex font-sans">
+      {adminToast && <Toast message={adminToast.text} isError={adminToast.isError} onClose={() => setAdminToast(null)} />}
+      {/* Sidebar */}
+      <aside className="w-[240px] bg-[#4a529f] flex flex-col text-[#b8bce0] shrink-0">
+        <div className="h-16 flex items-center justify-center border-b border-[#434a91] bg-[#4a529f] text-white">
+          <div className="flex flex-col items-center">
+            <span className="text-2xl font-bold tracking-wider leading-tight">NOVUS</span>
+            <span className="text-[10px] tracking-[0.2em] uppercase opacity-70 font-semibold">AdminPanel</span>
+          </div>
+        </div>
+        <nav className="flex-1 py-4 text-sm font-medium">
+          <div className="px-6 py-3 text-white bg-[#434a91] flex items-center gap-4 cursor-pointer border-l-4 border-[#ff9800]">
+            <span>🏠</span> Dashboard
+          </div>
+          <NavLink to="/admin/orders" className={({isActive}) => `px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer ${isActive ? 'text-white' : ''}`}>
+            <span>⚙️</span> Components <span className="ml-auto text-[10px] bg-[#434a91] px-2 py-0.5 rounded-full text-white">12</span>
+          </NavLink>
+          <NavLink to="/admin/products" className={({isActive}) => `px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer ${isActive ? 'text-white' : ''}`}>
+            <span>🖥️</span> UI Elements
+          </NavLink>
+          <div className="px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer">
+            <span>📦</span> Widgets <span className="ml-auto text-[10px] bg-[#ff9800] px-2 py-0.5 rounded-sm text-white">new</span>
+          </div>
+          <div className="px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer">
+            <span>✉️</span> Mailbox
+          </div>
+          <NavLink to="/admin/customers" className={({isActive}) => `px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer ${isActive ? 'text-white' : ''}`}>
+            <span>📊</span> Tables <span className="ml-auto text-[10px] bg-[#434a91] px-2 py-0.5 rounded-full text-white">05</span>
+          </NavLink>
+          <div className="px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer">
+            <span>📝</span> Forms
+          </div>
+          <div className="px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer">
+            <span>📄</span> Pages <span className="ml-auto text-[10px] bg-[#ff9800] px-2 py-0.5 rounded-sm text-white">02</span>
+          </div>
+          <div className="px-6 py-3 flex items-center gap-4 hover:bg-[#434a91] hover:text-white transition-colors cursor-pointer">
+            <span>📈</span> Charts <span className="ml-auto text-[10px] bg-[#ff9800] px-2 py-0.5 rounded-sm text-white">new</span>
+          </div>
+        </nav>
+        <div className="p-4">
+          <Link to="/" className="flex items-center gap-3 px-4 py-2 text-[#ff9800] hover:bg-[#434a91] rounded-sm text-sm font-medium transition-colors justify-center border border-[#ff9800]">
+            Về trang cửa hàng
+          </Link>
+        </div>
+      </aside>
+
+      {/* Main Content */}
+      <main className="flex-1 flex flex-col h-screen overflow-hidden bg-[#eeeeee]">
+        {/* Top Navbar */}
+        <header className="h-16 bg-white flex items-center justify-between px-6 shadow-sm z-10 shrink-0">
+          <div className="flex items-center gap-4 w-1/3">
+            <button className="text-gray-500 text-xl md:hidden">☰</button>
+            <div className="relative w-full max-w-xs hidden md:block">
+              <input type="text" placeholder="Search..." className="w-full pl-3 pr-8 py-1.5 border border-[#ddd] rounded-sm text-sm outline-none focus:border-[#4a529f]" />
+              <span className="absolute right-2 top-1.5 text-gray-400 text-sm">🔍</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-6 text-gray-500">
+            <div className="relative cursor-pointer">
+              <span>✉️</span>
+              <span className="absolute -top-1.5 -right-2 bg-[#8bc34a] text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full">2</span>
+            </div>
+            <div className="relative cursor-pointer">
+              <span>🔔</span>
+              <span className="absolute -top-1.5 -right-2 bg-[#e91e63] text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full">4</span>
+            </div>
+            <div className="relative cursor-pointer">
+              <span>📋</span>
+              <span className="absolute -top-1.5 -right-2 bg-[#9c27b0] text-white text-[9px] font-bold px-1.5 py-0.5 rounded-full">15</span>
+            </div>
+            <div className="flex items-center gap-2 cursor-pointer pl-4 border-l border-[#eee]">
+              <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
+                <img src="https://i.pravatar.cc/100?img=5" alt="Profile" className="w-full h-full object-cover" />
+              </div>
+              <div className="hidden md:block">
+                <p className="text-[13px] font-bold text-[#333] leading-tight">Wikolia</p>
+                <p className="text-[11px] text-gray-400">Administrator</p>
+              </div>
+              <span className="text-xs ml-1">▼</span>
+            </div>
+          </div>
+        </header>
+        <div className="flex-1 overflow-auto p-6">
+          <Outlet context={{ showToast }} />
+        </div>
+      </main>
+    </div>
+  );
+}
+
+function AdminDashboard() {
+  return (
+    <div className="space-y-6 pb-10 max-w-7xl mx-auto">
+      {/* 3 Summary Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Card 1 */}
+        <div className="bg-[#4a529f] shadow-sm flex text-white h-24 rounded-sm overflow-hidden">
+          <div className="flex-1 flex flex-col justify-center items-center relative">
+            <span className="text-xs uppercase tracking-wide opacity-80 absolute top-2">Today</span>
+            <span className="text-xl mt-3 font-normal tracking-wide">Sales</span>
+          </div>
+          <div className="w-1/3 bg-[#545db4] flex items-center justify-center text-3xl font-light">
+            45
+          </div>
+        </div>
+        
+        {/* Card 2 */}
+        <div className="bg-[#595959] shadow-sm flex text-white h-24 rounded-sm overflow-hidden">
+          <div className="flex-1 flex flex-col justify-center items-center relative">
+            <span className="text-xs uppercase tracking-wide opacity-80 absolute top-2">Today</span>
+            <span className="text-xl mt-3 font-normal tracking-wide">Visitors</span>
+          </div>
+          <div className="w-1/3 bg-[#666666] flex items-center justify-center text-3xl font-light">
+            80
+          </div>
+        </div>
+
+        {/* Card 3 */}
+        <div className="bg-[#f25e1c] shadow-sm flex text-white h-24 rounded-sm overflow-hidden">
+          <div className="flex-1 flex flex-col justify-center items-center relative">
+            <span className="text-xs uppercase tracking-wide opacity-80 absolute top-2">Today</span>
+            <span className="text-xl mt-3 font-normal tracking-wide">Orders</span>
+          </div>
+          <div className="w-1/3 bg-[#fa6d30] flex items-center justify-center text-3xl font-light">
+            51
+          </div>
+        </div>
+      </div>
+
+      {/* 3 Charts */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Bar Chart */}
+        <div className="bg-white p-4 shadow-sm border border-[#e5e5e5] rounded-sm">
+          <h3 className="text-xs font-bold text-gray-400 mb-4 uppercase">BAR CHART EXAMPLE</h3>
+          <div className="h-48 flex items-end justify-between px-2 gap-1 border-b border-l border-gray-100 pb-1 relative">
+            <div className="absolute left-0 top-0 bottom-0 flex flex-col justify-between text-[10px] text-gray-400 -translate-x-full pr-1">
+              <span>80</span><span>70</span><span>60</span><span>50</span><span>40</span><span>30</span><span>20</span><span>0</span>
+            </div>
+            {/* Fake bars */}
+            <div className="w-full bg-[#f25e1c] h-[60%]"></div>
+            <div className="w-full bg-[#4a529f] h-[40%]"></div>
+            <div className="w-full bg-[#f25e1c] h-[70%]"></div>
+            <div className="w-full bg-[#4a529f] h-[50%]"></div>
+            <div className="w-full bg-[#f25e1c] h-[90%]"></div>
+            <div className="w-full bg-[#4a529f] h-[45%]"></div>
+            <div className="w-full bg-[#f25e1c] h-[80%]"></div>
+            <div className="w-full bg-[#4a529f] h-[20%]"></div>
+            <div className="w-full bg-[#f25e1c] h-[50%]"></div>
+            <div className="w-full bg-[#4a529f] h-[40%]"></div>
+            <div className="w-full bg-[#f25e1c] h-[55%]"></div>
+            <div className="w-full bg-[#4a529f] h-[70%]"></div>
+            <div className="w-full bg-[#f25e1c] h-[40%]"></div>
+            <div className="w-full bg-[#4a529f] h-[60%]"></div>
+          </div>
+          <div className="flex justify-between text-[10px] text-gray-400 mt-2 px-2">
+            <span>Jan</span><span>Feb</span><span>March</span><span>April</span><span>May</span><span>June</span><span>July</span>
+          </div>
+        </div>
+
+        {/* Line Chart */}
+        <div className="bg-white p-4 shadow-sm border border-[#e5e5e5] rounded-sm">
+          <h3 className="text-xs font-bold text-gray-400 mb-4 uppercase">LINE CHART EXAMPLE</h3>
+          <div className="h-48 border-b border-l border-gray-100 relative overflow-hidden">
+             <div className="absolute left-0 top-0 bottom-0 flex flex-col justify-between text-[10px] text-gray-400 -translate-x-full pr-1">
+              <span>80</span><span>75</span><span>70</span><span>65</span><span>60</span><span>55</span><span>50</span>
+            </div>
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="w-full h-full absolute bottom-0">
+              <path d="M0,80 Q10,10 25,60 T50,20 T75,90 T100,20 L100,100 L0,100 Z" fill="#ffb432" className="opacity-90"/>
+              <path d="M0,100 Q15,40 30,90 T55,50 T75,95 T100,50 L100,100 L0,100 Z" fill="#4a529f" className="opacity-90"/>
+            </svg>
+          </div>
+          <div className="flex justify-between text-[10px] text-gray-400 mt-2 px-2">
+            <span>Jan</span><span>Feb</span><span>March</span><span>April</span><span>May</span><span>June</span><span>July</span>
+          </div>
+        </div>
+
+        {/* Pie Chart */}
+        <div className="bg-white p-4 shadow-sm border border-[#e5e5e5] rounded-sm flex flex-col items-center">
+          <h3 className="text-xs font-bold text-gray-400 mb-4 uppercase w-full text-left">PIE CHART EXAMPLE</h3>
+          <div className="w-48 h-48 rounded-full border border-gray-100 overflow-hidden relative" style={{
+            background: 'conic-gradient(#f25e1c 0% 35%, #ffb432 35% 55%, #595959 55% 75%, #4a529f 75% 100%)'
+          }}>
+             {/* Fake slices via conic gradient */}
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Area */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Browser Stats */}
+        <div className="bg-white p-4 shadow-sm border border-[#e5e5e5] rounded-sm flex flex-col">
+          <h3 className="text-xs font-bold text-gray-400 mb-4 uppercase">BROWSER STATS</h3>
+          <div className="space-y-4 flex-1">
+            <div className="flex items-center text-xs">
+              <span className="w-32 text-gray-600">GoogleChrome</span>
+              <div className="flex-1 bg-gray-100 h-1.5 mx-2 rounded overflow-hidden"><div className="bg-[#4caf50] h-full w-[85%]"></div></div>
+              <span className="w-8 text-right text-gray-400">85%</span>
+            </div>
+            <div className="flex items-center text-xs">
+              <span className="w-32 text-gray-600">Firefox</span>
+              <div className="flex-1 bg-gray-100 h-1.5 mx-2 rounded overflow-hidden"><div className="bg-[#ff9800] h-full w-[35%]"></div></div>
+              <span className="w-8 text-right text-gray-400">35%</span>
+            </div>
+            <div className="flex items-center text-xs">
+              <span className="w-32 text-gray-600">Internet Explorer</span>
+              <div className="flex-1 bg-gray-100 h-1.5 mx-2 rounded overflow-hidden"><div className="bg-[#f44336] h-full w-[78%]"></div></div>
+              <span className="w-8 text-right text-gray-400">78%</span>
+            </div>
+            <div className="flex items-center text-xs">
+              <span className="w-32 text-gray-600">Safari</span>
+              <div className="flex-1 bg-gray-100 h-1.5 mx-2 rounded overflow-hidden"><div className="bg-[#2196f3] h-full w-[50%]"></div></div>
+              <span className="w-8 text-right text-gray-400">50%</span>
+            </div>
+            <div className="flex items-center text-xs">
+              <span className="w-32 text-gray-600">Opera</span>
+              <div className="flex-1 bg-gray-100 h-1.5 mx-2 rounded overflow-hidden"><div className="bg-[#9c27b0] h-full w-[20%]"></div></div>
+              <span className="w-8 text-right text-gray-400">20%</span>
+            </div>
+            <div className="flex items-center text-xs">
+              <span className="w-32 text-gray-600">Others</span>
+              <div className="flex-1 bg-gray-100 h-1.5 mx-2 rounded overflow-hidden"><div className="bg-[#ff5722] h-full w-[10%]"></div></div>
+              <span className="w-8 text-right text-gray-400">10%</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Table Area */}
+        <div className="md:col-span-2 bg-white shadow-sm border border-[#e5e5e5] rounded-sm overflow-hidden">
+          <table className="w-full text-left text-xs">
+            <thead>
+              <tr className="border-b border-[#e5e5e5] text-gray-800 font-bold uppercase tracking-wider">
+                <th className="p-4">S.NO</th>
+                <th className="p-4">PRODUCT</th>
+                <th className="p-4">STATUS</th>
+                <th className="p-4 text-center">PROGRESS</th>
+              </tr>
+            </thead>
+            <tbody className="text-gray-500">
+              <tr className="border-b border-gray-100">
+                <td className="p-4 font-bold text-gray-800">1</td>
+                <td className="p-4">
+                  <p className="font-bold text-gray-700">Lorem ipsum</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Aliquam</p>
+                </td>
+                <td className="p-4"><span className="bg-[#4caf50] text-white px-2 py-0.5 rounded-sm text-[10px]">In progress</span></td>
+                <td className="p-4 text-center text-[#4caf50] font-bold">85% ↑</td>
+              </tr>
+              <tr className="border-b border-gray-100">
+                <td className="p-4 font-bold text-gray-800">2</td>
+                <td className="p-4">
+                  <p className="font-bold text-gray-700">Lorem ipsum</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Aliquam</p>
+                </td>
+                <td className="p-4"><span className="bg-[#ff9800] text-white px-2 py-0.5 rounded-sm text-[10px]">New</span></td>
+                <td className="p-4 text-center text-[#ff9800] font-bold">25% ↑</td>
+              </tr>
+              <tr className="border-b border-gray-100">
+                <td className="p-4 font-bold text-gray-800">3</td>
+                <td className="p-4">
+                  <p className="font-bold text-gray-700">Lorem ipsum</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Aliquam</p>
+                </td>
+                <td className="p-4"><span className="bg-[#f44336] text-white px-2 py-0.5 rounded-sm text-[10px]">Overdue</span></td>
+                <td className="p-4 text-center text-[#f44336] font-bold">40% ↓</td>
+              </tr>
+              <tr className="border-b border-gray-100">
+                <td className="p-4 font-bold text-gray-800">4</td>
+                <td className="p-4">
+                  <p className="font-bold text-gray-700">Lorem ipsum</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Aliquam</p>
+                </td>
+                <td className="p-4"><span className="bg-[#2196f3] text-white px-2 py-0.5 rounded-sm text-[10px]">Out of stock</span></td>
+                <td className="p-4 text-center text-[#2196f3] font-bold">100% ↑</td>
+              </tr>
+              <tr className="border-b border-gray-100">
+                <td className="p-4 font-bold text-gray-800">5</td>
+                <td className="p-4">
+                  <p className="font-bold text-gray-700">Lorem ipsum</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Aliquam</p>
+                </td>
+                <td className="p-4"><span className="bg-[#4caf50] text-white px-2 py-0.5 rounded-sm text-[10px]">In progress</span></td>
+                <td className="p-4 text-center text-[#4caf50] font-bold">10% ↑</td>
+              </tr>
+              <tr>
+                <td className="p-4 font-bold text-gray-800">6</td>
+                <td className="p-4">
+                  <p className="font-bold text-gray-700">Lorem ipsum</p>
+                  <p className="text-[10px] text-gray-400 mt-1">Aliquam</p>
+                </td>
+                <td className="p-4"><span className="bg-[#ff9800] text-white px-2 py-0.5 rounded-sm text-[10px]">New</span></td>
+                <td className="p-4 text-center text-[#ff9800] font-bold">38% ↑</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+function SearchPage() {
+  const [searchParams] = useSearchParams();
+  const q = searchParams.get("q") || "";
+  const { onAddToCart } = useOutletContext<{ onAddToCart: (product: typeof smartphones[0]) => void }>();
+  
+  // Collect all products to filter from
+  const allProducts = [...smartphones, ...laptops, ...tablets, ...audio, ...smartwatches, ...accessoriesData, ...cameras, ...monitors];
+  
+  // Very basic search filter: check if product name includes the search query (case-insensitive)
+  const results = allProducts.filter(p => p.name.toLowerCase().includes(q.toLowerCase()));
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-8 min-h-[60vh]">
+      <h1 className="text-2xl font-bold text-[#1a2236] mb-6">Kết quả tìm kiếm cho: "{q}"</h1>
+      {results.length > 0 ? (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+          {results.map((p, i) => (
+            <ProductCard key={i} product={p} onAdd={onAddToCart} />
+          ))}
+        </div>
+      ) : (
+         <div className="bg-white p-12 rounded-2xl border border-[#e2eaf6] text-center">
+           <div className="w-16 h-16 bg-[#f0f5fc] rounded-full flex items-center justify-center text-2xl mx-auto mb-4">🔍</div>
+           <h2 className="text-xl font-bold text-[#1a2236] mb-2">Không tìm thấy sản phẩm</h2>
+           <p className="text-[#6b7a99]">Rất tiếc, chúng tôi không tìm thấy sản phẩm nào khớp với tìm kiếm của bạn. Hãy thử từ khóa khác.</p>
+         </div>
+      )}
+    </div>
+  );
+}
+
+function CategoryPage() {
+  const { id } = useParams();
+  
+  const categoryMatch = categories.find(c => toSlug(c.label) === id) 
+    || topCategories.find(c => toSlug(c.label) === id);
+    
+  const title = categoryMatch 
+    ? categoryMatch.label 
+    : (id ? id.replace(/-/g, " ").replace(/(^\w|[\s]\S)/g, l => l.toUpperCase()) : "Danh mục");
+
+  const { onAddToCart } = useOutletContext<{ onAddToCart: (product: typeof smartphones[0]) => void, cartItems: any[], clearCart: () => void }>();
+
+  let pageProducts = smartphones;
+  if (id === 'laptop') pageProducts = laptops;
+  else if (id === 'may-tinh-bang' || id === 'tablet') pageProducts = tablets;
+  else if (id === 'am-thanh') pageProducts = audio;
+  else if (id === 'dong-ho-thong-minh' || id === 'smartwatch') pageProducts = smartwatches;
+  else if (id === 'phu-kien') pageProducts = accessoriesData;
+  else if (id === 'camera') pageProducts = cameras;
+  else if (id === 'man-hinh') pageProducts = monitors;
+
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
+  const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
+
+  const toggleFilter = (filter: string) => {
+    setSelectedFilters(prev => 
+      prev.includes(filter) ? prev.filter(f => f !== filter) : [...prev, filter]
+    );
+  };
+  
+  const clearFilters = () => setSelectedFilters([]);
+
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-8 min-h-[60vh] relative">
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-2xl font-bold text-[#1a2236]">Danh mục: {title}</h1>
+        <button 
+          onClick={() => setIsFilterOpen(true)}
+          className="flex items-center gap-2 px-4 py-2 border border-[#e2eaf6] rounded-lg text-sm font-medium hover:bg-[#f0f5fc] transition-colors"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" /></svg>
+          Bộ lọc
+        </button>
+      </div>
+
+      {/* Filter Modal (Mô phỏng TopZone) */}
+      {isFilterOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setIsFilterOpen(false)}></div>
+          <div className="relative bg-[#323232] text-white w-full max-w-3xl max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl animate-in zoom-in-95 duration-200 flex flex-col">
+            
+            {/* Modal Header */}
+            <div className="sticky top-0 bg-[#323232] z-10 flex items-center justify-between p-6 border-b border-white/10">
+              <h2 className="text-xl font-bold mx-auto">Tất cả bộ lọc</h2>
+              <button onClick={() => setIsFilterOpen(false)} className="absolute right-6 text-gray-400 hover:text-white transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="p-6 space-y-8">
+              
+              <div>
+                <h3 className="font-bold mb-3">Dòng sản phẩm</h3>
+                <div className="flex flex-wrap gap-3">
+                  {["Cao cấp", "Tầm trung", "Giá rẻ", "Phiên bản đặc biệt"].map(f => {
+                    const isSelected = selectedFilters.includes(f);
+                    return (
+                      <button 
+                        key={f} 
+                        onClick={() => toggleFilter(f)}
+                        className={`px-4 py-2 border rounded-lg text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-transparent border-[#3b82f6] text-[#3b82f6]' 
+                            : 'bg-white/5 border-white/10 hover:border-white/30 text-white'
+                        }`}
+                      >
+                        {f}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="font-bold mb-3">Giá</h3>
+                <div className="flex flex-wrap gap-3 mb-6">
+                  {["Dưới 15 triệu", "Từ 15 - 20 triệu", "Từ 20 - 25 triệu", "Từ 25 - 30 triệu", "Trên 30 triệu"].map(f => {
+                    const isSelected = selectedFilters.includes(f);
+                    return (
+                      <button 
+                        key={f} 
+                        onClick={() => toggleFilter(f)}
+                        className={`px-4 py-2 border rounded-lg text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-transparent border-[#3b82f6] text-[#3b82f6]' 
+                            : 'bg-white/5 border-white/10 hover:border-white/30 text-white'
+                        }`}
+                      >
+                        {f}
+                      </button>
+                    );
+                  })}
+                </div>
+                
+                <div className="flex items-center gap-2 text-sm text-[#3b82f6] mb-4">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>
+                  <span>Hoặc chọn mức giá phù hợp với bạn</span>
+                </div>
+                
+                {/* Giả lập thanh kéo Range Slider */}
+                <div className="relative h-1 bg-white/20 rounded-full mb-6 mx-2">
+                   <div className="absolute left-[20%] right-[30%] h-full bg-[#3b82f6] rounded-full"></div>
+                   <div className="absolute left-[20%] top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-2 border-[#3b82f6] rounded-full shadow cursor-pointer"></div>
+                   <div className="absolute right-[30%] top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-2 border-[#3b82f6] rounded-full shadow cursor-pointer"></div>
+                </div>
+
+                <div className="flex justify-center gap-4">
+                  <div className="px-4 py-2 bg-transparent border border-white/20 rounded-lg w-32 text-center text-sm">15.000.000đ</div>
+                  <div className="px-4 py-2 bg-transparent border border-white/20 rounded-lg w-32 text-center text-sm">40.000.000đ</div>
+                </div>
+              </div>
+
+              <div>
+                <h3 className="font-bold mb-3">Dung lượng lưu trữ</h3>
+                <div className="flex flex-wrap gap-3">
+                  {["128 GB", "256 GB", "512 GB", "1 TB", "2 TB"].map(f => {
+                    const isSelected = selectedFilters.includes(f);
+                    return (
+                      <button 
+                        key={f} 
+                        onClick={() => toggleFilter(f)}
+                        className={`px-4 py-2 border rounded-lg text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-transparent border-[#3b82f6] text-[#3b82f6]' 
+                            : 'bg-white/5 border-white/10 hover:border-white/30 text-white'
+                        }`}
+                      >
+                        {f}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="font-bold mb-3">RAM</h3>
+                <div className="flex flex-wrap gap-3">
+                  {["4 GB", "6 GB", "8 GB", "12 GB"].map(f => {
+                    const isSelected = selectedFilters.includes(f);
+                    return (
+                      <button 
+                        key={f} 
+                        onClick={() => toggleFilter(f)}
+                        className={`px-4 py-2 border rounded-lg text-sm transition-colors ${
+                          isSelected 
+                            ? 'bg-transparent border-[#3b82f6] text-[#3b82f6]' 
+                            : 'bg-white/5 border-white/10 hover:border-white/30 text-white'
+                        }`}
+                      >
+                        {f}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+            </div>
+
+            {/* Modal Footer */}
+            <div className="sticky bottom-0 bg-[#2c2c2e] p-4 border-t border-white/10 flex justify-center gap-4">
+              <button onClick={clearFilters} className="px-8 py-2.5 bg-white/10 text-white font-semibold rounded-lg hover:bg-white/20 transition-colors">Bỏ chọn</button>
+              <button onClick={() => setIsFilterOpen(false)} className="px-8 py-2.5 bg-[#3b82f6] text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors shadow-lg shadow-blue-500/30">Xem 15 kết quả</button>
+            </div>
+
+          </div>
+        </div>
+      )}
+
+      {pageProducts.length > 0 ? (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+          {pageProducts.map((p, i) => (
+            <ProductCard key={i} product={p} onAdd={onAddToCart} />
+          ))}
+        </div>
+      ) : (
+         <div className="bg-white p-12 rounded-2xl border border-[#e2eaf6] text-center">
+           <div className="w-16 h-16 bg-[#f0f5fc] rounded-full flex items-center justify-center text-2xl mx-auto mb-4">📦</div>
+           <h2 className="text-xl font-bold text-[#1a2236] mb-2">Đang cập nhật sản phẩm</h2>
+           <p className="text-[#6b7a99]">Các sản phẩm thuộc danh mục {title} sẽ sớm được cập nhật. Vui lòng quay lại sau!</p>
+         </div>
+      )}
+    </div>
+  );
+}
+
+function HomePage() {
+  const { onAddToCart } = useOutletContext<{ onAddToCart: () => void }>();
+  return (
+    <div className="bg-transparent">
+      <HeroBanner />
+      <TopCategories />
+      <ProductCarousel title="Điện thoại" products={smartphones} icon="📱" onAdd={onAddToCart} />
+      <ProductCarousel title="Laptop / Mac" products={laptops} icon="💻" onAdd={onAddToCart} />
+      <ProductCarousel title="Máy tính bảng" products={tablets} icon="📱" onAdd={onAddToCart} />
+      <ProductCarousel title="Phụ kiện" products={accessoriesData} icon="🔌" onAdd={onAddToCart} />
+    </div>
+  );
+}
+
+
+
+
+function ProductPage() {
+  const { id } = useParams();
+  const { onAddToCart } = useOutletContext<{ onAddToCart: (product: typeof smartphones[0]) => void, cartItems: any[], clearCart: () => void }>();
+  
+  // Find product by slug
+  const allProducts = [...smartphones, ...laptops, ...tablets, ...audio, ...smartwatches, ...accessoriesData, ...cameras, ...monitors];
+  const product = allProducts.find(p => toSlug(p.name) === id);
+
+  const [activeTab, setActiveTab] = useState("features");
+  
+  if (!product) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-16 text-center">
+        <h1 className="text-2xl font-bold text-[#1a2236] mb-4">Không tìm thấy sản phẩm</h1>
+        <p className="text-[#6b7a99] mb-8">Sản phẩm bạn đang tìm kiếm không tồn tại hoặc đã bị xóa.</p>
+        <Link to="/" className="inline-block px-8 py-3 bg-[#1a6fdb] text-white font-semibold rounded-xl hover:bg-[#1558b0] transition-colors">
+          Về trang chủ
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="bg-white">
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* Hình ảnh sản phẩm */}
+          <div className="space-y-4">
+            <div className="bg-[#f0f5fc] rounded-3xl aspect-square flex items-center justify-center p-8 overflow-hidden relative">
+              <span className="absolute top-4 left-4 bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-lg">
+                Giảm {product.off}%
+              </span>
+              <img src={product.img} alt={product.name} className="w-full h-full object-contain" />
+            </div>
+            {/* Thumbnails (Giả lập) */}
+            <div className="grid grid-cols-5 gap-3">
+              {[1, 2, 3, 4, 5].map(i => (
+                <button key={i} className={`aspect-square rounded-xl overflow-hidden border-2 ${i === 1 ? 'border-[#1a6fdb]' : 'border-[#e2eaf6] hover:border-[#1a6fdb]'} bg-[#f0f5fc]`}>
+                  <img src={product.img} alt={`${product.name} thumb ${i}`} className="w-full h-full object-cover" />
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Thông tin chi tiết (Giống TopZone mockup) */}
+          <div className="flex flex-col">
+            <h1 className="text-3xl font-bold text-[#1a2236] mb-2">{product.name}</h1>
+            <p className="text-sm text-[#6b7a99] mb-4">Mã SP: {toSlug(product.name).toUpperCase().substring(0, 8)} | Đánh giá: 4.9/5 (128 lượt)</p>
+            
+            <div className="flex items-end gap-4 mb-6 pb-6 border-b border-[#e2eaf6]">
+              <div className="text-3xl font-extrabold text-[#1a6fdb]">{fmt(product.price)}</div>
+              <div className="text-lg text-[#6b7a99] line-through mb-1">{fmt(product.original)}</div>
+              <div className="text-sm font-medium text-emerald-600 mb-1.5 px-2 py-0.5 bg-emerald-50 rounded-md">
+                Tiết kiệm {fmt(product.original - product.price)}
+              </div>
+            </div>
+
+            {/* Các tùy chọn - Giả lập cho sinh động */}
+            <div className="space-y-6 mb-8 flex-1">
+              <div>
+                <p className="text-sm font-bold text-[#1a2236] mb-3">Dung lượng / Phiên bản:</p>
+                <div className="flex flex-wrap gap-3">
+                  {["Tiêu chuẩn", "Nâng cao", "Cao cấp"].map((cap, i) => (
+                    <button key={cap} className={`px-4 py-2.5 rounded-xl border text-sm font-semibold transition-colors ${i === 0 ? 'border-[#1a6fdb] bg-[#f0f5fc] text-[#1a6fdb]' : 'border-[#e2eaf6] text-[#6b7a99] hover:border-[#1a6fdb] hover:text-[#1a6fdb]'}`}>
+                      {cap}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              
+              <div>
+                <p className="text-sm font-bold text-[#1a2236] mb-3">Màu sắc:</p>
+                <div className="flex gap-3">
+                  {[
+                    {name: "Đen Midnight", color: "#1a2236"},
+                    {name: "Trắng Starlight", color: "#f8fafc"},
+                    {name: "Xanh Navy", color: "#1a6fdb"}
+                  ].map((c, i) => (
+                    <button key={c.name} title={c.name} className={`w-10 h-10 rounded-full border-2 ${i === 0 ? 'border-[#1a6fdb] p-0.5' : 'border-transparent'} transition-all`}>
+                      <span className="w-full h-full block rounded-full border border-black/10" style={{backgroundColor: c.color}}></span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Hộp khuyến mãi */}
+              <div className="bg-[#f0f5fc] border border-[#1a6fdb]/20 rounded-2xl p-5 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-[#1a6fdb]"></div>
+                <h3 className="font-bold text-[#1a6fdb] flex items-center gap-2 mb-3">
+                  <span>🎁</span> Khuyến mãi đặc biệt
+                </h3>
+                <ul className="space-y-2 text-sm text-[#1a2236]">
+                  <li className="flex gap-2"><span className="text-[#1a6fdb]">•</span> Tặng Voucher 500.000đ khi mua kèm phụ kiện.</li>
+                  <li className="flex gap-2"><span className="text-[#1a6fdb]">•</span> Thu cũ đổi mới trợ giá thêm đến 2.000.000đ.</li>
+                  <li className="flex gap-2"><span className="text-[#1a6fdb]">•</span> Giảm thêm 5% khi thanh toán qua SePay VietQR.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="flex gap-4 mt-auto pt-6">
+              <button 
+                onClick={() => onAddToCart(product)}
+                className="flex-1 py-4 bg-[#1a6fdb] text-white font-bold rounded-xl hover:bg-[#1558b0] transition-colors shadow-lg shadow-blue-500/20 text-lg flex items-center justify-center gap-2"
+              >
+                Thêm vào giỏ
+              </button>
+              <button className="w-16 h-16 bg-[#f0f5fc] text-[#1a6fdb] rounded-xl flex items-center justify-center hover:bg-blue-100 transition-colors border border-[#e2eaf6]">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Thông tin thêm bên dưới */}
+        <div className="mt-16 pt-12 border-t border-[#e2eaf6]">
+          <div className="flex gap-8 border-b border-[#e2eaf6] mb-8 overflow-x-auto scrollbar-hide">
+            <button 
+              onClick={() => setActiveTab("features")}
+              className={`pb-4 font-bold text-lg whitespace-nowrap transition-colors border-b-2 ${activeTab === 'features' ? 'border-[#1a6fdb] text-[#1a6fdb]' : 'border-transparent text-[#6b7a99] hover:text-[#1a2236]'}`}
+            >
+              Đặc điểm nổi bật
+            </button>
+            <button 
+              onClick={() => setActiveTab("specs")}
+              className={`pb-4 font-bold text-lg whitespace-nowrap transition-colors border-b-2 ${activeTab === 'specs' ? 'border-[#1a6fdb] text-[#1a6fdb]' : 'border-transparent text-[#6b7a99] hover:text-[#1a2236]'}`}
+            >
+              Thông số kỹ thuật
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div className="lg:col-span-2 space-y-6 text-[#1a2236] leading-relaxed">
+              {activeTab === 'features' ? (
+                <>
+                  <h3 className="text-xl font-bold">Mô tả sản phẩm</h3>
+                  <p>{product.name} là một trong những sản phẩm công nghệ hàng đầu hiện nay, mang đến trải nghiệm đột phá với hiệu năng vượt trội và thiết kế tinh tế. Máy được trang bị bộ vi xử lý thế hệ mới nhất, giúp xử lý mượt mà mọi tác vụ từ làm việc đến giải trí.</p>
+                  <img src={product.img} className="w-full h-80 object-cover rounded-2xl bg-[#f0f5fc]" alt="Feature" />
+                  <p>Màn hình hiển thị xuất sắc với độ phân giải siêu cao, dải màu rộng và tần số quét lớn mang lại hình ảnh sống động, chân thực đến từng chi tiết. Bên cạnh đó, hệ thống tản nhiệt tiên tiến đảm bảo máy luôn hoạt động mát mẻ trong thời gian dài.</p>
+                </>
+              ) : (
+                <div className="bg-[#f0f5fc] rounded-2xl p-6 border border-[#e2eaf6]">
+                  <h3 className="text-xl font-bold mb-6">Thông số kỹ thuật chi tiết</h3>
+                  <table className="w-full text-sm">
+                    <tbody>
+                      {getProductSpecs(product.name).map((row, i) => (
+                        <tr key={i} className={`border-b border-[#e2eaf6] ${i % 2 === 0 ? 'bg-white' : ''}`}>
+                          <td className="py-3 px-4 font-medium text-[#6b7a99] w-1/3">{row[0]}</td>
+                          <td className="py-3 px-4 font-semibold text-[#1a2236]">{row[1]}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+            
+            <div className="lg:col-span-1">
+              <div className="bg-white border border-[#e2eaf6] rounded-2xl p-6 shadow-sm sticky top-24">
+                <h3 className="font-bold text-lg text-[#1a2236] mb-4">Sản phẩm tương tự</h3>
+                <div className="space-y-4">
+                  {smartphones.slice(0, 3).map((p, i) => (
+                    <Link to={`/product/${toSlug(p.name)}`} key={i} className="flex gap-4 group">
+                      <div className="w-20 h-20 bg-[#f0f5fc] rounded-xl overflow-hidden shrink-0 flex items-center justify-center p-2">
+                        <img src={p.img} alt={p.name} className="w-full h-full object-contain group-hover:scale-110 transition-transform" />
+                      </div>
+                      <div className="flex-1 flex flex-col justify-center">
+                        <p className="text-sm font-semibold text-[#1a2236] group-hover:text-[#1a6fdb] transition-colors line-clamp-2 mb-1">{p.name}</p>
+                        <p className="text-sm font-bold text-[#1a6fdb]">{fmt(p.price)}</p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CheckoutPage() {
+  const { cartItems, clearCart } = useOutletContext<{ cartItems: (typeof smartphones[0] & { qty: number })[], clearCart: () => void }>();
+  const navigate = useNavigate();
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [paymentMethod, setPaymentMethod] = useState("cod");
+
+  const total = cartItems.reduce((acc, item) => acc + item.price * item.qty, 0);
+  const shipping = total > 0 ? 30000 : 0;
+  const finalTotal = total + shipping;
+  const [orderId] = useState(() => "BBM" + Math.floor(Math.random() * 1000000));
+  
+  // Cấu hình SePay (Thay đổi thành tài khoản thật khi triển khai)
+  const sepayBank = "MBBank"; 
+  const sepayAcc = "0123456789"; 
+  const sepayTemplate = "compact";
+  const qrUrl = `https://qr.sepay.vn/img?bank=${sepayBank}&acc=${sepayAcc}&amount=${finalTotal}&des=${orderId}&template=${sepayTemplate}`;
+
+  const API_TOKEN = "SG832BCLRMSG6D7LU4HFEKQCV0HLIHWYHQPXFA0JBEUYP6LCZXOVIATFNO8MCJQA";
+  const [isVerifying, setIsVerifying] = useState(false);
+  const [paymentError, setPaymentError] = useState("");
+
+  const verifySePayTransaction = async () => {
+    setIsVerifying(true);
+    setPaymentError("");
+    try {
+      const res = await fetch("https://my.sepay.vn/userapi/transactions/list", {
+        headers: {
+          "Authorization": `Bearer ${API_TOKEN}`,
+          "Content-Type": "application/json"
+        }
+      });
+      const data = await res.json();
+      
+      if (data && data.transactions) {
+        // Tìm giao dịch có nội dung chứa mã đơn hàng (không phân biệt hoa thường) và số tiền khớp
+        const found = data.transactions.find((t: any) => 
+          t.transaction_content.toLowerCase().includes(orderId.toLowerCase()) && 
+          parseInt(t.amount_in) >= finalTotal
+        );
+        
+        if (found) {
+          setIsSuccess(true);
+          clearCart();
+        } else {
+          setPaymentError("Chưa tìm thấy giao dịch. Vui lòng thử lại sau ít phút nếu bạn vừa chuyển khoản.");
+        }
+      } else {
+        setPaymentError("Không thể kết nối đến máy chủ SePay.");
+      }
+    } catch (err) {
+       setPaymentError("Lỗi mạng khi kiểm tra thanh toán.");
+    }
+    setIsVerifying(false);
+  };
+
+  // Tự động kiểm tra (polling) mỗi 5 giây
+  useEffect(() => {
+    if (paymentMethod !== 'qr' || isSuccess) return;
+    
+    const interval = setInterval(() => {
+      fetch("https://my.sepay.vn/userapi/transactions/list", {
+        headers: {
+          "Authorization": `Bearer ${API_TOKEN}`,
+          "Content-Type": "application/json"
+        }
+      }).then(res => res.json()).then(data => {
+        if (data && data.transactions) {
+          const found = data.transactions.find((t: any) => 
+            t.transaction_content.toLowerCase().includes(orderId.toLowerCase()) && 
+            parseInt(t.amount_in) >= finalTotal
+          );
+          if (found) {
+            setIsSuccess(true);
+            clearCart();
+          }
+        }
+      }).catch(() => {});
+    }, 5000);
+    
+    return () => clearInterval(interval);
+  }, [paymentMethod, isSuccess, orderId, finalTotal, clearCart]);
+
+  const handleCheckout = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (paymentMethod === 'qr') {
+      verifySePayTransaction();
+    } else {
+      setIsSuccess(true);
+      clearCart();
+    }
+  };
+
+  if (isSuccess) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-16 text-center">
+        <div className="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-4xl mx-auto mb-6">✓</div>
+        <h1 className="text-3xl font-bold text-[#1a2236] mb-4">Đặt hàng thành công!</h1>
+        <p className="text-[#6b7a99] mb-8">Cảm ơn bạn đã mua sắm tại BigBangMart. Đơn hàng của bạn đang được xử lý và sẽ sớm được giao đến bạn.</p>
+        <Link to="/" className="inline-block px-8 py-3 bg-[#1a6fdb] text-white font-semibold rounded-xl hover:bg-[#1558b0] transition-colors">
+          Tiếp tục mua sắm
+        </Link>
+      </div>
+    );
+  }
+
+  if (cartItems.length === 0) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-16 text-center">
+        <div className="w-20 h-20 bg-[#f0f5fc] rounded-full flex items-center justify-center text-4xl mx-auto mb-6">🛒</div>
+        <h1 className="text-2xl font-bold text-[#1a2236] mb-4">Giỏ hàng trống</h1>
+        <p className="text-[#6b7a99] mb-8">Bạn chưa có sản phẩm nào trong giỏ hàng để thanh toán.</p>
+        <Link to="/" className="inline-block px-8 py-3 bg-[#1a6fdb] text-white font-semibold rounded-xl hover:bg-[#1558b0] transition-colors">
+          Khám phá sản phẩm
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      <h1 className="text-2xl font-bold text-[#1a2236] mb-8">Thanh toán đơn hàng</h1>
+      <div className="flex flex-col lg:flex-row gap-8">
+        {/* Form */}
+        <div className="flex-1">
+          <div className="bg-white p-6 rounded-2xl border border-[#e2eaf6] shadow-sm mb-6">
+            <h2 className="text-lg font-bold text-[#1a2236] mb-4">Thông tin giao hàng</h2>
+            <form id="checkout-form" className="space-y-4" onSubmit={handleCheckout}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-sm font-medium text-[#1a2236] mb-1">Họ và tên</label>
+                  <input required type="text" className="w-full px-4 py-2 border border-[#e2eaf6] rounded-xl outline-none focus:border-[#1a6fdb]" placeholder="VD: Nguyễn Văn A" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-[#1a2236] mb-1">Số điện thoại</label>
+                  <input required type="tel" className="w-full px-4 py-2 border border-[#e2eaf6] rounded-xl outline-none focus:border-[#1a6fdb]" placeholder="VD: 0912345678" />
+                </div>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-[#1a2236] mb-1">Địa chỉ nhận hàng</label>
+                <input required type="text" className="w-full px-4 py-2 border border-[#e2eaf6] rounded-xl outline-none focus:border-[#1a6fdb]" placeholder="Số nhà, tên đường, phường/xã, quận/huyện, thành phố..." />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-[#1a2236] mb-1">Ghi chú (Tùy chọn)</label>
+                <textarea className="w-full px-4 py-2 border border-[#e2eaf6] rounded-xl outline-none focus:border-[#1a6fdb] resize-none h-24" placeholder="Ghi chú về giao hàng..."></textarea>
+              </div>
+            </form>
+          </div>
+
+          <div className="bg-white p-6 rounded-2xl border border-[#e2eaf6] shadow-sm">
+            <h2 className="text-lg font-bold text-[#1a2236] mb-4">Phương thức thanh toán</h2>
+            <div className="space-y-3">
+              <label className={`flex items-center gap-3 p-4 border rounded-xl cursor-pointer transition-colors ${paymentMethod === 'cod' ? 'border-[#1a6fdb] bg-[#f0f5fc]' : 'border-[#e2eaf6] hover:bg-gray-50'}`}>
+                <input type="radio" name="payment" value="cod" checked={paymentMethod === 'cod'} onChange={() => setPaymentMethod('cod')} className="w-4 h-4 text-[#1a6fdb]" />
+                <span className="font-medium text-[#1a2236]">Thanh toán khi nhận hàng (COD)</span>
+              </label>
+              
+              <label className={`flex items-center gap-3 p-4 border rounded-xl cursor-pointer transition-colors ${paymentMethod === 'qr' ? 'border-[#1a6fdb] bg-[#f0f5fc]' : 'border-[#e2eaf6] hover:bg-gray-50'}`}>
+                <input type="radio" name="payment" value="qr" checked={paymentMethod === 'qr'} onChange={() => setPaymentMethod('qr')} className="w-4 h-4 text-[#1a6fdb]" />
+                <span className="font-medium text-[#1a2236]">Chuyển khoản ngân hàng (Quét mã QR)</span>
+              </label>
+              {paymentMethod === 'qr' && (
+                <div className="p-4 border border-[#e2eaf6] rounded-xl bg-white flex flex-col items-center justify-center animate-in fade-in zoom-in duration-200">
+                  <p className="text-sm font-semibold text-[#1a2236] mb-3">Quét mã VietQR để thanh toán (Tích hợp SePay)</p>
+                  <div className="w-64 h-64 bg-white border-2 border-[#1a6fdb] rounded-xl overflow-hidden mb-3 shadow-sm">
+                    <img src={qrUrl} alt="SePay QR Code" className="w-full h-full object-contain" />
+                  </div>
+                  <div className="bg-[#f0f5fc] p-4 rounded-xl w-full text-sm space-y-2 mb-3 border border-[#e2eaf6]">
+                    <div className="flex justify-between border-b border-[#e2eaf6] pb-2"><span className="text-[#6b7a99]">Ngân hàng:</span><span className="font-bold text-[#1a2236]">{sepayBank}</span></div>
+                    <div className="flex justify-between border-b border-[#e2eaf6] pb-2"><span className="text-[#6b7a99]">Số tài khoản:</span><span className="font-bold text-[#1a2236]">{sepayAcc}</span></div>
+                    <div className="flex justify-between border-b border-[#e2eaf6] pb-2"><span className="text-[#6b7a99]">Số tiền:</span><span className="font-bold text-[#1a6fdb]">{fmt(finalTotal)}</span></div>
+                    <div className="flex justify-between"><span className="text-[#6b7a99]">Nội dung CK:</span><span className="font-bold text-emerald-600">{orderId}</span></div>
+                  </div>
+                  <p className="text-xs text-[#6b7a99] text-center px-4 mb-3">Sử dụng ứng dụng ngân hàng để quét mã.<br/>Vui lòng kiểm tra kỹ thông báo chuyển khoản.</p>
+                  <button type="button" onClick={verifySePayTransaction} disabled={isVerifying} className="px-6 py-2.5 bg-[#f0f5fc] text-[#1a6fdb] font-semibold rounded-xl hover:bg-blue-100 transition-colors flex items-center justify-center gap-2">
+                    {isVerifying ? (
+                      <><span className="w-4 h-4 border-2 border-[#1a6fdb] border-t-transparent rounded-full animate-spin"></span> Đang kiểm tra...</>
+                    ) : "Tôi đã chuyển khoản"}
+                  </button>
+                  {paymentError && <p className="text-xs text-red-500 text-center mt-3 bg-red-50 p-2 rounded-lg">{paymentError}</p>}
+                </div>
+              )}
+
+              <label className={`flex items-center gap-3 p-4 border rounded-xl cursor-pointer transition-colors ${paymentMethod === 'deposit' ? 'border-[#1a6fdb] bg-[#f0f5fc]' : 'border-[#e2eaf6] hover:bg-gray-50'}`}>
+                <input type="radio" name="payment" value="deposit" checked={paymentMethod === 'deposit'} onChange={() => setPaymentMethod('deposit')} className="w-4 h-4 text-[#1a6fdb]" />
+                <span className="font-medium text-[#1a2236]">Đặt cọc qua chuyển khoản (Cho đơn hàng giá trị cao)</span>
+              </label>
+              {paymentMethod === 'deposit' && (
+                <div className="p-4 border border-[#e2eaf6] rounded-xl bg-white flex flex-col items-center justify-center animate-in fade-in zoom-in duration-200">
+                  <p className="text-sm font-semibold text-[#1a2236] mb-3">Chuyển khoản Đặt cọc (50% giá trị đơn hàng)</p>
+                  <div className="w-64 h-64 bg-white border-2 border-[#1a6fdb] rounded-xl overflow-hidden mb-3 shadow-sm">
+                    <img src={`https://qr.sepay.vn/img?bank=${sepayBank}&acc=${sepayAcc}&amount=${finalTotal / 2}&des=${orderId}&template=${sepayTemplate}`} alt="Deposit QR Code" className="w-full h-full object-contain" />
+                  </div>
+                  <div className="bg-[#f0f5fc] p-4 rounded-xl w-full text-sm space-y-2 mb-3 border border-[#e2eaf6]">
+                    <div className="flex justify-between border-b border-[#e2eaf6] pb-2"><span className="text-[#6b7a99]">Số tiền đặt cọc:</span><span className="font-bold text-[#1a6fdb]">{fmt(finalTotal / 2)}</span></div>
+                    <div className="flex justify-between"><span className="text-[#6b7a99]">Nội dung CK:</span><span className="font-bold text-emerald-600">{orderId}</span></div>
+                  </div>
+                  <button type="button" onClick={verifySePayTransaction} disabled={isVerifying} className="px-6 py-2.5 bg-[#f0f5fc] text-[#1a6fdb] font-semibold rounded-xl hover:bg-blue-100 transition-colors flex items-center justify-center gap-2">
+                    {isVerifying ? (
+                      <><span className="w-4 h-4 border-2 border-[#1a6fdb] border-t-transparent rounded-full animate-spin"></span> Đang kiểm tra...</>
+                    ) : "Tôi đã đặt cọc"}
+                  </button>
+                </div>
+              )}
+
+              <label className={`flex items-center gap-3 p-4 border rounded-xl cursor-pointer transition-colors ${paymentMethod === 'card' ? 'border-[#1a6fdb] bg-[#f0f5fc]' : 'border-[#e2eaf6] hover:bg-gray-50'}`}>
+                <input type="radio" name="payment" value="card" checked={paymentMethod === 'card'} onChange={() => setPaymentMethod('card')} className="w-4 h-4 text-[#1a6fdb]" />
+                <span className="font-medium text-[#1a2236]">Thanh toán bằng thẻ (Tín dụng / Ghi nợ)</span>
+              </label>
+              {paymentMethod === 'card' && (
+                <div className="p-4 border border-[#e2eaf6] rounded-xl bg-white space-y-4 animate-in fade-in slide-in-from-top-2 duration-200">
+                  <div>
+                    <label className="block text-xs font-medium text-[#6b7a99] mb-1">Số thẻ</label>
+                    <input required type="text" className="w-full px-4 py-2 text-sm border border-[#e2eaf6] rounded-lg outline-none focus:border-[#1a6fdb]" placeholder="0000 0000 0000 0000" />
+                  </div>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-xs font-medium text-[#6b7a99] mb-1">Ngày hết hạn</label>
+                      <input required type="text" className="w-full px-4 py-2 text-sm border border-[#e2eaf6] rounded-lg outline-none focus:border-[#1a6fdb]" placeholder="MM/YY" />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-medium text-[#6b7a99] mb-1">Mã CVV</label>
+                      <input required type="password" maxLength={3} className="w-full px-4 py-2 text-sm border border-[#e2eaf6] rounded-lg outline-none focus:border-[#1a6fdb]" placeholder="123" />
+                    </div>
+                  </div>
+                  <div>
+                    <label className="block text-xs font-medium text-[#6b7a99] mb-1">Tên chủ thẻ</label>
+                    <input required type="text" className="w-full px-4 py-2 text-sm border border-[#e2eaf6] rounded-lg outline-none focus:border-[#1a6fdb]" placeholder="NGUYEN VAN A" />
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Order Summary */}
+        <div className="w-full lg:w-[400px]">
+          <div className="bg-white p-6 rounded-2xl border border-[#e2eaf6] shadow-sm sticky top-24">
+            <h2 className="text-lg font-bold text-[#1a2236] mb-4">Tóm tắt đơn hàng</h2>
+            <div className="space-y-4 mb-6 max-h-64 overflow-y-auto pr-2">
+              {cartItems.map((item, i) => (
+                <div key={i} className="flex gap-3">
+                  <div className="w-16 h-16 bg-[#f0f5fc] rounded-lg overflow-hidden shrink-0">
+                    <img src={item.img} alt={item.name} className="w-full h-full object-cover" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm font-semibold text-[#1a2236] line-clamp-1">{item.name}</p>
+                    <p className="text-xs text-[#6b7a99] mt-1">SL: {item.qty}</p>
+                    <p className="text-sm font-bold text-[#1a6fdb] mt-1">{fmt(item.price * item.qty)}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="border-t border-[#e2eaf6] pt-4 space-y-3 text-sm">
+              <div className="flex justify-between text-[#6b7a99]">
+                <span>Tạm tính</span>
+                <span className="font-medium text-[#1a2236]">{fmt(total)}</span>
+              </div>
+              <div className="flex justify-between text-[#6b7a99]">
+                <span>Phí vận chuyển</span>
+                <span className="font-medium text-[#1a2236]">{fmt(shipping)}</span>
+              </div>
+              <div className="flex justify-between text-[#6b7a99] pb-4">
+                <span>Giảm giá</span>
+                <span className="font-medium text-emerald-600">- {fmt(0)}</span>
+              </div>
+              <div className="flex justify-between border-t border-[#e2eaf6] pt-4">
+                <span className="font-bold text-[#1a2236] text-base">Tổng cộng</span>
+                <span className="font-bold text-[#1a6fdb] text-xl">{fmt(total + shipping)}</span>
+              </div>
+            </div>
+
+            <button type="submit" form="checkout-form" disabled={isVerifying && paymentMethod === 'qr'} className="w-full mt-6 py-3 bg-[#1a6fdb] text-white font-bold rounded-xl hover:bg-[#1558b0] transition-colors shadow-md shadow-blue-500/20 disabled:opacity-70">
+              {paymentMethod === 'qr' ? 'Kiểm tra thanh toán & Đặt hàng' : 'Xác nhận Đặt hàng'}
+            </button>
+            <p className="text-xs text-center text-[#6b7a99] mt-4">
+              Bằng việc đặt hàng, bạn đồng ý với Điều khoản và điều kiện của chúng tôi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function GenericPage() {
+  const { id } = useParams();
+  const title = id 
+    ? decodeURIComponent(id).replace(/-/g, " ").replace(/(^\w|[\s]\S)/g, l => l.toUpperCase()) 
+    : "Trang";
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-16 min-h-[60vh]">
+      <div className="bg-white p-8 md:p-12 rounded-2xl border border-[#e2eaf6] shadow-sm max-w-4xl mx-auto">
+        <h1 className="text-3xl font-bold text-[#1a2236] mb-6">{title}</h1>
+        <div className="space-y-4 text-[#6b7a99] leading-relaxed">
+          <p>Chào mừng bạn đến với trang <strong>{title}</strong>. Nội dung của trang này hiện đang được cập nhật.</p>
+          <p>Chúng tôi đang nỗ lực hoàn thiện các thông tin và chính sách để mang đến cho bạn trải nghiệm mua sắm tốt nhất tại BigBangMart. Mọi thắc mắc xin vui lòng liên hệ bộ phận hỗ trợ khách hàng qua Hotline hoặc WhatsApp.</p>
+          <p>Xin cảm ơn sự đồng hành và tin tưởng của bạn!</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+const MOCK_ORDERS = [
+  { id: "BBM-001", date: "26/09/2026 14:30", user: "Nguyễn Văn A", email: "nguyenvana@email.com", phone: "0901234567", total: 32999000, paymentStatus: "Đã thanh toán", fulfillmentStatus: "Đã giao", paymentMethod: "Chuyển khoản ngân hàng", color: "emerald", note: "", items: [{ name: "iPhone 16 Pro Max 256GB", img: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-desertTitanium?wid=5120&hei=2880&fmt=p-jpg", qty: 1, price: 32999000 }] },
+  { id: "BBM-002", date: "25/09/2026 09:15", user: "Trần Thị B", email: "tranthib@email.com", phone: "0912345678", total: 2500000, paymentStatus: "Chưa thanh toán", fulfillmentStatus: "Đang xử lý", paymentMethod: "Đặt cọc (Chuyển khoản)", color: "blue", note: "Giao hàng buổi sáng", items: [{ name: "Tai nghe Sony WH-1000XM5", img: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=200", qty: 1, price: 2500000 }] },
+  { id: "BBM-003", date: "24/09/2026 16:45", user: "Lê Văn C", email: "levanc@email.com", phone: "0923456789", total: 45000000, paymentStatus: "Chờ thanh toán", fulfillmentStatus: "Chờ xử lý", paymentMethod: "Thẻ tín dụng", color: "amber", note: "", items: [{ name: "MacBook Pro M4 14 inch", img: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=200", qty: 1, price: 45000000 }] },
+  { id: "BBM-004", date: "23/09/2026 10:00", user: "Phạm Thị D", email: "phamthid@email.com", phone: "0934567890", total: 12500000, paymentStatus: "Hoàn tiền", fulfillmentStatus: "Đã hủy", paymentMethod: "COD", color: "red", note: "Khách đổi ý", items: [{ name: "Samsung Galaxy S25 Ultra", img: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=200", qty: 1, price: 12500000 }] },
+  { id: "BBM-005", date: "22/09/2026 20:20", user: "Hoàng Văn E", email: "hoangvane@email.com", phone: "0945678901", total: 8900000, paymentStatus: "Đã thanh toán", fulfillmentStatus: "Đã giao", paymentMethod: "Chuyển khoản ngân hàng", color: "emerald", note: "", items: [{ name: "iPad Pro M4 11 inch", img: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=200", qty: 1, price: 8900000 }] },
+];
+
