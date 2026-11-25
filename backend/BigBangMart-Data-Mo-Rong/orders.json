@@ -1,0 +1,2834 @@
+[
+  {
+    "_id": {
+      "$oid": "beef00040000000000000001"
+    },
+    "orderNumber": "DEMO-ELEC-001",
+    "customer": {
+      "name": "Khách mẫu điện tử 1",
+      "email": "electronics-demo1@example.com",
+      "phone": "0000000000",
+      "address": "Địa chỉ giả dùng kiểm thử",
+      "note": "ĐƠN DEMO - không giao hàng"
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000001",
+        "name": "iPhone 13 Pro",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
+        "price": 12990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 12990000,
+    "discount": 0,
+    "shippingFee": 30000,
+    "total": 13020000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00040000000000000002"
+    },
+    "orderNumber": "DEMO-ELEC-002",
+    "customer": {
+      "name": "Khách mẫu điện tử 2",
+      "email": "electronics-demo2@example.com",
+      "phone": "0000000000",
+      "address": "Địa chỉ giả dùng kiểm thử",
+      "note": "ĐƠN DEMO - không giao hàng"
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000002",
+        "name": "iPhone X",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+        "price": 3990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 3990000,
+    "discount": 0,
+    "shippingFee": 30000,
+    "total": 4020000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00040000000000000003"
+    },
+    "orderNumber": "DEMO-ELEC-003",
+    "customer": {
+      "name": "Khách mẫu điện tử 3",
+      "email": "electronics-demo3@example.com",
+      "phone": "0000000000",
+      "address": "Địa chỉ giả dùng kiểm thử",
+      "note": "ĐƠN DEMO - không giao hàng"
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000003",
+        "name": "Oppo A57",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
+        "price": 2990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 2990000,
+    "discount": 0,
+    "shippingFee": 30000,
+    "total": 3020000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00040000000000000004"
+    },
+    "orderNumber": "DEMO-ELEC-004",
+    "customer": {
+      "name": "Khách mẫu điện tử 4",
+      "email": "electronics-demo4@example.com",
+      "phone": "0000000000",
+      "address": "Địa chỉ giả dùng kiểm thử",
+      "note": "ĐƠN DEMO - không giao hàng"
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000004",
+        "name": "Oppo F19 Pro Plus",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+        "price": 4990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 4990000,
+    "discount": 0,
+    "shippingFee": 30000,
+    "total": 5020000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 5020000,
+    "paidAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00040000000000000005"
+    },
+    "orderNumber": "DEMO-ELEC-005",
+    "customer": {
+      "name": "Khách mẫu điện tử 5",
+      "email": "electronics-demo5@example.com",
+      "phone": "0000000000",
+      "address": "Địa chỉ giả dùng kiểm thử",
+      "note": "ĐƠN DEMO - không giao hàng"
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000005",
+        "name": "Realme C35",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
+        "price": 2790000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 2790000,
+    "discount": 0,
+    "shippingFee": 30000,
+    "total": 2820000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "cancelled",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "15908960f095716914dd3ebf"
+    },
+    "orderNumber": "BBM-MR26-0001",
+    "customer": {
+      "name": "Khách demo 01",
+      "email": "bbm-demo-01@example.com",
+      "phone": "0000000001",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "a07c297fd904001bca3bf9e9",
+        "name": "Samsung Galaxy A56 5G",
+        "img": "https://www.pbtech.co.nz/imgprod/M/P/MPHSAM2356601.jpg?h=3084599751",
+        "price": 9490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 9490000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 9490000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-10-22T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T19:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3809953c521e9aa68c1158f"
+    },
+    "orderNumber": "BBM-MR26-0002",
+    "customer": {
+      "name": "Khách demo 02",
+      "email": "bbm-demo-02@example.com",
+      "phone": "0000000002",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "237f117a53b14ef6a38a127f",
+        "name": "Canon EOS R10",
+        "img": "https://www.pictureline.com/cdn/shop/products/EOS-R10-Mirrorless-Digital-Camera-Body-1_4ae2ffd0-02cb-4dd1-9a82-11a69825b79d.jpg?v=1653407959&width=1200",
+        "price": 15990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 15990000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 15990000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "BBM-MR26-0002",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 15990000,
+    "paidAt": {
+      "$date": "2026-10-23T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-23T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-23T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "362e5a07ea8c2162c8b4f8dd"
+    },
+    "orderNumber": "BBM-MR26-0003",
+    "customer": {
+      "name": "Khách demo 03",
+      "email": "bbm-demo-03@example.com",
+      "phone": "0000000003",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "a11667b3d213abcc1d44676e",
+        "name": "Sony Alpha 6700",
+        "img": "https://www.camtecphoto.com/userdata/products/5725/a6700-front-34.jpg",
+        "price": 29990000,
+        "quantity": 1
+      },
+      {
+        "productId": "338ca92d32ece81cf5774be4",
+        "name": "Dell UltraSharp U2723QE",
+        "img": "https://focuscamera.com/cdn/shop/files/3027579.jpg?crop=center&height=1200&v=1752072743&width=1200",
+        "price": 12490000,
+        "quantity": 1
+      },
+      {
+        "productId": "d167b59a3a2df62d2f732f45",
+        "name": "LG 27GP850-B",
+        "img": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitor/27gp850-b_ahk_echk_hk_en_c/gallery/large04.jpg",
+        "price": 6990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 49470000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 49470000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-10-23T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-23T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7979d8bad834a8baf4bb1cb"
+    },
+    "orderNumber": "BBM-MR26-0004",
+    "customer": {
+      "name": "Khách demo 04",
+      "email": "bbm-demo-04@example.com",
+      "phone": "0000000004",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000009",
+        "name": "Lenovo Yoga 920",
+        "img": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+        "price": 14990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 14990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 15025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0004",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 15025000,
+    "paidAt": {
+      "$date": "2026-10-24T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-24T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-24T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7f69b7731e9e0a0f7980c26d"
+    },
+    "orderNumber": "BBM-MR26-0005",
+    "customer": {
+      "name": "Khách demo 05",
+      "email": "bbm-demo-05@example.com",
+      "phone": "0000000005",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "2770a4e6d1809075b835f328",
+        "name": "Samsung Odyssey G5 G55C",
+        "img": "https://cdn.idealo.com/folder/Product/203873/7/203873734/s4_produktbild_max_1/samsung-odyssey-g55c-s32cg554eu.jpg",
+        "price": 5990000,
+        "quantity": 1
+      },
+      {
+        "productId": "9f6aff56ff069a64681a2d01",
+        "name": "Samsung Galaxy S25 Ultra",
+        "img": "https://a.allegroimg.com/original/29396e/aad7eddb47c6901eedd8a044fcbf/Okostelefon-Samsung-Galaxy-S25-Ultra-12-GB-512-GB-5G-szuerke",
+        "price": 27990000,
+        "quantity": 2
+      }
+    ],
+    "subtotal": 61970000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 61970000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-10-24T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-24T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52fd62130571b58daa8942b9"
+    },
+    "orderNumber": "BBM-MR26-0006",
+    "customer": {
+      "name": "Khách demo 06",
+      "email": "bbm-demo-06@example.com",
+      "phone": "0000000006",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "9eb247e8884459c91d2b8df1",
+        "name": "Canon EOS R8",
+        "img": "https://cdn.awsli.com.br/2500x2500/2607/2607202/produto/218990219/canon_eos_r8_01-44lf1514e0.jpeg",
+        "price": 27990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 27990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 28025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0006",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 28025000,
+    "paidAt": {
+      "$date": "2026-10-25T08:00:00.000Z"
+    },
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-10-25T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-25T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a3c3a53169af948d59ad3f5"
+    },
+    "orderNumber": "BBM-MR26-0007",
+    "customer": {
+      "name": "Khách demo 07",
+      "email": "bbm-demo-07@example.com",
+      "phone": "0000000007",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000016",
+        "name": "iPhone 12 Silicone Case with MagSafe Plum",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp",
+        "price": 390000,
+        "quantity": 1
+      },
+      {
+        "productId": "beef0002000000000000000d",
+        "name": "Samsung Galaxy Tab White",
+        "img": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp",
+        "price": 3990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 4380000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 4415000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0007",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 4415000,
+    "paidAt": {
+      "$date": "2026-10-25T20:00:00.000Z"
+    },
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-10-25T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-25T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "368e66a4a502d5cdafb2c9bc"
+    },
+    "orderNumber": "BBM-MR26-0008",
+    "customer": {
+      "name": "Khách demo 08",
+      "email": "bbm-demo-08@example.com",
+      "phone": "0000000008",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "9f6aff56ff069a64681a2d01",
+        "name": "Samsung Galaxy S25 Ultra",
+        "img": "https://a.allegroimg.com/original/29396e/aad7eddb47c6901eedd8a044fcbf/Okostelefon-Samsung-Galaxy-S25-Ultra-12-GB-512-GB-5G-szuerke",
+        "price": 27990000,
+        "quantity": 1
+      },
+      {
+        "productId": "1cfe368959c8c2d4321c9ac3",
+        "name": "Sony WH-1000XM5",
+        "img": "https://i.ebayimg.com/images/g/fv0AAeSwumNpiqP6/s-l1200.jpg",
+        "price": 7190000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 35180000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 35215000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-10-26T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-26T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aaa8e6e2e999228244fcff58"
+    },
+    "orderNumber": "BBM-MR26-0009",
+    "customer": {
+      "name": "Khách demo 09",
+      "email": "bbm-demo-09@example.com",
+      "phone": "0000000009",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "b3e64ac941f26b1b20ca54b5",
+        "name": "Garmin Venu 3S",
+        "img": "https://www.highlytunedathletes.com.au/cdn/shop/files/1__75899.1693440068_1200x1200.jpg?v=1764410839",
+        "price": 10490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 10490000,
+    "discount": 0,
+    "shippingFee": 25000,
+    "total": 10515000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 10515000,
+    "paidAt": {
+      "$date": "2026-10-26T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-26T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-26T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "487808455e7ce92ec7ef176e"
+    },
+    "orderNumber": "BBM-MR26-0010",
+    "customer": {
+      "name": "Khách demo 10",
+      "email": "bbm-demo-10@example.com",
+      "phone": "0000000010",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000008",
+        "name": "Huawei Matebook X Pro",
+        "img": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+        "price": 22990000,
+        "quantity": 2
+      }
+    ],
+    "subtotal": 45980000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 46015000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-10-27T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6569c0ae6627286a8d3204c7"
+    },
+    "orderNumber": "BBM-MR26-0011",
+    "customer": {
+      "name": "Khách demo 11",
+      "email": "bbm-demo-11@example.com",
+      "phone": "0000000011",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "d167b59a3a2df62d2f732f45",
+        "name": "LG 27GP850-B",
+        "img": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitor/27gp850-b_ahk_echk_hk_en_c/gallery/large04.jpg",
+        "price": 6990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 6990000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 6990000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 6990000,
+    "paidAt": {
+      "$date": "2026-10-27T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-27T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-27T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4363f3cd041af9efe7a77272"
+    },
+    "orderNumber": "BBM-MR26-0012",
+    "customer": {
+      "name": "Khách demo 12",
+      "email": "bbm-demo-12@example.com",
+      "phone": "0000000012",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000011",
+        "name": "Apple HomePod Mini Cosmic Grey",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/thumbnail.webp",
+        "price": 2290000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 2290000,
+    "discount": 114500,
+    "shippingFee": 35000,
+    "total": 2210500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "cancelled",
+    "createdAt": {
+      "$date": "2026-10-28T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-28T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "17b69659aae2861c23b62b4c"
+    },
+    "orderNumber": "BBM-MR26-0013",
+    "customer": {
+      "name": "Khách demo 13",
+      "email": "bbm-demo-13@example.com",
+      "phone": "0000000013",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000010",
+        "name": "Apple AirPods Max Silver",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp",
+        "price": 9990000,
+        "quantity": 1
+      },
+      {
+        "productId": "a11667b3d213abcc1d44676e",
+        "name": "Sony Alpha 6700",
+        "img": "https://www.camtecphoto.com/userdata/products/5725/a6700-front-34.jpg",
+        "price": 29990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 39980000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 40015000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0013",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 40015000,
+    "paidAt": {
+      "$date": "2026-10-28T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-28T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-28T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d1a3e34264e8eca709a66bf3"
+    },
+    "orderNumber": "BBM-MR26-0014",
+    "customer": {
+      "name": "Khách demo 14",
+      "email": "bbm-demo-14@example.com",
+      "phone": "0000000014",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef0002000000000000000f",
+        "name": "Apple Airpods",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+        "price": 2490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 2490000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 2490000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-10-29T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f8eed9ba09408aabe023d6cc"
+    },
+    "orderNumber": "BBM-MR26-0015",
+    "customer": {
+      "name": "Khách demo 15",
+      "email": "bbm-demo-15@example.com",
+      "phone": "0000000015",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "eee0172af18406fb7bc3cc71",
+        "name": "Apple MacBook Air 13 M4",
+        "img": "https://quickshipelectronics.com/cdn/shop/files/sdf_30421f2f-b558-4a9a-9d8d-3149000180d6.png?v=1778261620",
+        "price": 24990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 24990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 25025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0015",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 25025000,
+    "paidAt": {
+      "$date": "2026-10-29T20:00:00.000Z"
+    },
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-10-29T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-29T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "97f3fd28c90f3e82dbebf321"
+    },
+    "orderNumber": "BBM-MR26-0016",
+    "customer": {
+      "name": "Khách demo 16",
+      "email": "bbm-demo-16@example.com",
+      "phone": "0000000016",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "2fc963461e77cf602a8f5d98",
+        "name": "Samsung Galaxy Tab S10 FE",
+        "img": "https://cdn5.coppel.com/pm/2875563-1.jpg?iresize=width%3A400%2Cheight%3A320",
+        "price": 10990000,
+        "quantity": 1
+      },
+      {
+        "productId": "0ea47467126cf208cc55092d",
+        "name": "ASUS Zenbook 14 OLED UX3405",
+        "img": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/asus/thumb/149721-1_large.jpg",
+        "price": 23990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 34980000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 34980000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "BBM-MR26-0016",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 34980000,
+    "paidAt": {
+      "$date": "2026-10-30T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-30T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-30T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2af8fe0b07e78e5e536f907b"
+    },
+    "orderNumber": "BBM-MR26-0017",
+    "customer": {
+      "name": "Khách demo 17",
+      "email": "bbm-demo-17@example.com",
+      "phone": "0000000017",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef0002000000000000000a",
+        "name": "New DELL XPS 13 9300 Laptop",
+        "img": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+        "price": 19990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 19990000,
+    "discount": 999500,
+    "shippingFee": 25000,
+    "total": 19015500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 19015500,
+    "paidAt": {
+      "$date": "2026-10-30T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-30T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-30T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "50962f8bfa9c7995b4ac8c01"
+    },
+    "orderNumber": "BBM-MR26-0018",
+    "customer": {
+      "name": "Khách demo 18",
+      "email": "bbm-demo-18@example.com",
+      "phone": "0000000018",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "2fc963461e77cf602a8f5d98",
+        "name": "Samsung Galaxy Tab S10 FE",
+        "img": "https://cdn5.coppel.com/pm/2875563-1.jpg?iresize=width%3A400%2Cheight%3A320",
+        "price": 10990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 10990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 11025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-10-31T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-31T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "11cb046b20948200064f928b"
+    },
+    "orderNumber": "BBM-MR26-0019",
+    "customer": {
+      "name": "Khách demo 19",
+      "email": "bbm-demo-19@example.com",
+      "phone": "0000000019",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "2e728c1fe320648e6423d3d7",
+        "name": "Apple iPad A16",
+        "img": "https://istyle.ae/cdn/shop/files/IMG-16745587_m_jpg_1.jpg?v=1749028036",
+        "price": 8890000,
+        "quantity": 1
+      },
+      {
+        "productId": "2718697f2e1270f11e5547ed",
+        "name": "ASUS TUF VG27AQ",
+        "img": "https://www.asus.com/media/global/gallery/85ssljuw0k4w2hbp_setting_xxx_0_90_end_1000.png",
+        "price": 5990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 14880000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 14915000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0019",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 14915000,
+    "paidAt": {
+      "$date": "2026-10-31T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-10-31T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-31T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d232b39d229fedfffd5f4aaa"
+    },
+    "orderNumber": "BBM-MR26-0020",
+    "customer": {
+      "name": "Khách demo 20",
+      "email": "bbm-demo-20@example.com",
+      "phone": "0000000020",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "0ea47467126cf208cc55092d",
+        "name": "ASUS Zenbook 14 OLED UX3405",
+        "img": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/asus/thumb/149721-1_large.jpg",
+        "price": 23990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 23990000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 23990000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 23990000,
+    "paidAt": {
+      "$date": "2026-11-01T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-01T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-01T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cb54399787a8b4399fff73cc"
+    },
+    "orderNumber": "BBM-MR26-0021",
+    "customer": {
+      "name": "Khách demo 21",
+      "email": "bbm-demo-21@example.com",
+      "phone": "0000000021",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "59d48ccbdd7c4cc509866093",
+        "name": "Sony ZV-E10 II",
+        "img": "https://gzhls.at/pix/ef/b2/efb2bc3a6e357353-n.webp",
+        "price": 21990000,
+        "quantity": 1
+      },
+      {
+        "productId": "0ea47467126cf208cc55092d",
+        "name": "ASUS Zenbook 14 OLED UX3405",
+        "img": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/asus/thumb/149721-1_large.jpg",
+        "price": 23990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 45980000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 46015000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-01T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-01T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87955bc4d910ac8d42bb5e54"
+    },
+    "orderNumber": "BBM-MR26-0022",
+    "customer": {
+      "name": "Khách demo 22",
+      "email": "bbm-demo-22@example.com",
+      "phone": "0000000022",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "cc1de67f8bc696c7b3e0957d",
+        "name": "Google Pixel 9",
+        "img": "https://www.dateks.lv/images/pic/2400/2400/399/1797.jpg",
+        "price": 15990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 15990000,
+    "discount": 799500,
+    "shippingFee": 35000,
+    "total": 15225500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "cancelled",
+    "createdAt": {
+      "$date": "2026-11-02T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-02T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ffb70510bda2912a883d38a"
+    },
+    "orderNumber": "BBM-MR26-0023",
+    "customer": {
+      "name": "Khách demo 23",
+      "email": "bbm-demo-23@example.com",
+      "phone": "0000000023",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000004",
+        "name": "Oppo F19 Pro Plus",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+        "price": 4990000,
+        "quantity": 2
+      },
+      {
+        "productId": "83556bba3e33ecac2f1a5d0c",
+        "name": "Logitech MX Keys S",
+        "img": "https://cloud-nucleus.com/api/NucleusImage/GetImage/920011587/1.png",
+        "price": 2490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 12470000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 12505000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-02T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-02T19:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a25be12a5f431f6809f33f0"
+    },
+    "orderNumber": "BBM-MR26-0024",
+    "customer": {
+      "name": "Khách demo 24",
+      "email": "bbm-demo-24@example.com",
+      "phone": "0000000024",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "59d48ccbdd7c4cc509866093",
+        "name": "Sony ZV-E10 II",
+        "img": "https://gzhls.at/pix/ef/b2/efb2bc3a6e357353-n.webp",
+        "price": 21990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 21990000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 21990000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-11-03T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-03T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5bce3c62c32f27c819eb7df5"
+    },
+    "orderNumber": "BBM-MR26-0025",
+    "customer": {
+      "name": "Khách demo 25",
+      "email": "bbm-demo-25@example.com",
+      "phone": "0000000025",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "d167b59a3a2df62d2f732f45",
+        "name": "LG 27GP850-B",
+        "img": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitor/27gp850-b_ahk_echk_hk_en_c/gallery/large04.jpg",
+        "price": 6990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 6990000,
+    "discount": 0,
+    "shippingFee": 25000,
+    "total": 7015000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-11-03T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-03T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1a491badd4d73aec17a612d7"
+    },
+    "orderNumber": "BBM-MR26-0026",
+    "customer": {
+      "name": "Khách demo 26",
+      "email": "bbm-demo-26@example.com",
+      "phone": "0000000026",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "085843e04bd611fd68699e5d",
+        "name": "ASUS ProArt PA278QV",
+        "img": "https://sg.store.asus.com/media/catalog/product/p/r/proart_display_pa278qv_main.png",
+        "price": 6990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 6990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 7025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-04T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-04T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "75809bf051d126c860c6956a"
+    },
+    "orderNumber": "BBM-MR26-0027",
+    "customer": {
+      "name": "Khách demo 27",
+      "email": "bbm-demo-27@example.com",
+      "phone": "0000000027",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "b71ae111b6632dcf5cdca76c",
+        "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+        "img": "https://cdn.mos.cms.futurecdn.net/qm6ZswWYXHF2KtJou8JFHK.jpg",
+        "price": 35990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 35990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 36025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-04T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-04T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "40e2d223aa3672d8c868c50c"
+    },
+    "orderNumber": "BBM-MR26-0028",
+    "customer": {
+      "name": "Khách demo 28",
+      "email": "bbm-demo-28@example.com",
+      "phone": "0000000028",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "52e6b181162500ca0cb7be76",
+        "name": "Apple Watch Series 10",
+        "img": "https://www.istore.bg/storage/products/Apple-Watch-Series-10-GPS-Cellular-46mm-Rose-Gold-Aluminium-Case-with-Light-Blush-Sport-Band-1.jpg",
+        "price": 9490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 9490000,
+    "discount": 474500,
+    "shippingFee": 35000,
+    "total": 9050500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 9050500,
+    "paidAt": {
+      "$date": "2026-11-05T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-05T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-05T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c276cecd93efc0232227f8bc"
+    },
+    "orderNumber": "BBM-MR26-0029",
+    "customer": {
+      "name": "Khách demo 29",
+      "email": "bbm-demo-29@example.com",
+      "phone": "0000000029",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "05fb1b55924aa75d5780e8e8",
+        "name": "Garmin Vivoactive 5",
+        "img": "https://f.fcdn.app/imgs/afdc30/www.fitpoint.pe/fitppe/706a/original/catalogo/GA010-02862-10_1457_1/2000-2000/reloj-deportivo-garmin-vivoactive-5-negro-slate.jpg",
+        "price": 6290000,
+        "quantity": 1
+      },
+      {
+        "productId": "2718697f2e1270f11e5547ed",
+        "name": "ASUS TUF VG27AQ",
+        "img": "https://www.asus.com/media/global/gallery/85ssljuw0k4w2hbp_setting_xxx_0_90_end_1000.png",
+        "price": 5990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 12280000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 12315000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0029",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 12315000,
+    "paidAt": {
+      "$date": "2026-11-05T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-05T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-05T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dbb479a132bc409325aeb27d"
+    },
+    "orderNumber": "BBM-MR26-0030",
+    "customer": {
+      "name": "Khách demo 30",
+      "email": "bbm-demo-30@example.com",
+      "phone": "0000000030",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "185900ab9e1a35a0e610c551",
+        "name": "Apple iPhone 16e",
+        "img": "https://www.costco.com.tw/medias/sys_master/images/h62/h4b/327562453418014.jpg",
+        "price": 14990000,
+        "quantity": 1
+      },
+      {
+        "productId": "beef00020000000000000018",
+        "name": "Màn hình Samsung T350 24 inch",
+        "img": "https://imgs.pontofrio.com.br/55028105/1xg.jpg?imwidth=1000",
+        "price": 2490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 17480000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 17480000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-06T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-06T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c860dd7e683be7e48fd4a355"
+    },
+    "orderNumber": "BBM-MR26-0031",
+    "customer": {
+      "name": "Khách demo 31",
+      "email": "bbm-demo-31@example.com",
+      "phone": "0000000031",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "c2d2f5c01cc585070b8c106b",
+        "name": "Samsung Galaxy Watch7",
+        "img": "https://www.samsungmobile.co.il/pub/media/catalog/product/cache/a1ead2c2961e2ce13911c89cbb3a882f/c/0/C000001035_1-17206148132891701.jpg",
+        "price": 4990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 4990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 5025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "BBM-MR26-0031",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 5025000,
+    "paidAt": {
+      "$date": "2026-11-06T20:00:00.000Z"
+    },
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-11-06T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-06T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609ffdfdd8838956bd82df30"
+    },
+    "orderNumber": "BBM-MR26-0032",
+    "customer": {
+      "name": "Khách demo 32",
+      "email": "bbm-demo-32@example.com",
+      "phone": "0000000032",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "185900ab9e1a35a0e610c551",
+        "name": "Apple iPhone 16e",
+        "img": "https://www.costco.com.tw/medias/sys_master/images/h62/h4b/327562453418014.jpg",
+        "price": 14990000,
+        "quantity": 2
+      }
+    ],
+    "subtotal": 29980000,
+    "discount": 1499000,
+    "shippingFee": 35000,
+    "total": 28516000,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-07T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-07T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1946e54d710988d775ebfc97"
+    },
+    "orderNumber": "BBM-MR26-0033",
+    "customer": {
+      "name": "Khách demo 33",
+      "email": "bbm-demo-33@example.com",
+      "phone": "0000000033",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "6a1b9aa94bb2edca312f7cac",
+        "name": "Dell XPS 14 9440",
+        "img": "https://laptopmedia.com/wp-content/uploads/2024/02/6-21-scaled-e1708549995106.jpg",
+        "price": 39990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 39990000,
+    "discount": 0,
+    "shippingFee": 25000,
+    "total": 40015000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-07T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-07T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "43f63175e9689de8ba7fb860"
+    },
+    "orderNumber": "BBM-MR26-0034",
+    "customer": {
+      "name": "Khách demo 34",
+      "email": "bbm-demo-34@example.com",
+      "phone": "0000000034",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "185900ab9e1a35a0e610c551",
+        "name": "Apple iPhone 16e",
+        "img": "https://www.costco.com.tw/medias/sys_master/images/h62/h4b/327562453418014.jpg",
+        "price": 14990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 14990000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 14990000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 14990000,
+    "paidAt": {
+      "$date": "2026-11-08T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-08T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-08T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "372b5e2702d73c9bb81304d0"
+    },
+    "orderNumber": "BBM-MR26-0035",
+    "customer": {
+      "name": "Khách demo 35",
+      "email": "bbm-demo-35@example.com",
+      "phone": "0000000035",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef0002000000000000000b",
+        "name": "iPad Mini 2021 Starlight",
+        "img": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp",
+        "price": 8990000,
+        "quantity": 1
+      },
+      {
+        "productId": "cc1de67f8bc696c7b3e0957d",
+        "name": "Google Pixel 9",
+        "img": "https://www.dateks.lv/images/pic/2400/2400/399/1797.jpg",
+        "price": 15990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 24980000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 24980000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 24980000,
+    "paidAt": {
+      "$date": "2026-11-08T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-08T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-08T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "363686c11d3844ac3eb21331"
+    },
+    "orderNumber": "BBM-MR26-0036",
+    "customer": {
+      "name": "Khách demo 36",
+      "email": "bbm-demo-36@example.com",
+      "phone": "0000000036",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "59d48ccbdd7c4cc509866093",
+        "name": "Sony ZV-E10 II",
+        "img": "https://gzhls.at/pix/ef/b2/efb2bc3a6e357353-n.webp",
+        "price": 21990000,
+        "quantity": 1
+      },
+      {
+        "productId": "810cd660c962e438be3e9cc7",
+        "name": "JBL Charge 5",
+        "img": "https://imtc.qccdn.fr/test/enceinte-bluetooth/zoom/jbl-charge-5_001.jpg",
+        "price": 3490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 25480000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 25515000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 25515000,
+    "paidAt": {
+      "$date": "2026-11-09T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-09T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-09T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fef020572cb433af153ea320"
+    },
+    "orderNumber": "BBM-MR26-0037",
+    "customer": {
+      "name": "Khách demo 01",
+      "email": "bbm-demo-01@example.com",
+      "phone": "0000000001",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "3e12a0d8663c506f9221610a",
+        "name": "Samsung T7 Shield",
+        "img": "https://pmdshop.uk/cdn/shop/files/SamsungPortableSSDT7Shield_3_1200x1200.png?v=1695043172",
+        "price": 3290000,
+        "quantity": 1
+      },
+      {
+        "productId": "cf41249e4fd5087262b7c740",
+        "name": "Sony WF-1000XM5",
+        "img": "https://www.e-earphone.jp/cdn/shop/files/586626_1318674_1400x.jpg?v=1749781022",
+        "price": 5390000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 8680000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 8680000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "BBM-MR26-0037",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 8680000,
+    "paidAt": {
+      "$date": "2026-11-09T20:00:00.000Z"
+    },
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-11-09T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-09T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cc84ff5014b5f428194fe3f"
+    },
+    "orderNumber": "BBM-MR26-0038",
+    "customer": {
+      "name": "Khách demo 02",
+      "email": "bbm-demo-02@example.com",
+      "phone": "0000000002",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "338ca92d32ece81cf5774be4",
+        "name": "Dell UltraSharp U2723QE",
+        "img": "https://focuscamera.com/cdn/shop/files/3027579.jpg?crop=center&height=1200&v=1752072743&width=1200",
+        "price": 12490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 12490000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 12490000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 12490000,
+    "paidAt": {
+      "$date": "2026-11-10T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-10T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-10T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1a1d7c9157f2a17b733c6482"
+    },
+    "orderNumber": "BBM-MR26-0039",
+    "customer": {
+      "name": "Khách demo 03",
+      "email": "bbm-demo-03@example.com",
+      "phone": "0000000003",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "a07c297fd904001bca3bf9e9",
+        "name": "Samsung Galaxy A56 5G",
+        "img": "https://www.pbtech.co.nz/imgprod/M/P/MPHSAM2356601.jpg?h=3084599751",
+        "price": 9490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 9490000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 9525000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-10T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-10T19:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7da68478e8f9e86f8d9224b9"
+    },
+    "orderNumber": "BBM-MR26-0040",
+    "customer": {
+      "name": "Khách demo 04",
+      "email": "bbm-demo-04@example.com",
+      "phone": "0000000004",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "6a1b9aa94bb2edca312f7cac",
+        "name": "Dell XPS 14 9440",
+        "img": "https://laptopmedia.com/wp-content/uploads/2024/02/6-21-scaled-e1708549995106.jpg",
+        "price": 39990000,
+        "quantity": 1
+      },
+      {
+        "productId": "9f6aff56ff069a64681a2d01",
+        "name": "Samsung Galaxy S25 Ultra",
+        "img": "https://a.allegroimg.com/original/29396e/aad7eddb47c6901eedd8a044fcbf/Okostelefon-Samsung-Galaxy-S25-Ultra-12-GB-512-GB-5G-szuerke",
+        "price": 27990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 67980000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 68015000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "cancelled",
+    "createdAt": {
+      "$date": "2026-11-11T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-11T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "981c68b9a8e9956e6171bd4c"
+    },
+    "orderNumber": "BBM-MR26-0041",
+    "customer": {
+      "name": "Khách demo 05",
+      "email": "bbm-demo-05@example.com",
+      "phone": "0000000005",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "52e6b181162500ca0cb7be76",
+        "name": "Apple Watch Series 10",
+        "img": "https://www.istore.bg/storage/products/Apple-Watch-Series-10-GPS-Cellular-46mm-Rose-Gold-Aluminium-Case-with-Light-Blush-Sport-Band-1.jpg",
+        "price": 9490000,
+        "quantity": 1
+      },
+      {
+        "productId": "beef00020000000000000004",
+        "name": "Oppo F19 Pro Plus",
+        "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+        "price": 4990000,
+        "quantity": 1
+      },
+      {
+        "productId": "e4bb253febaaa3b44501fc31",
+        "name": "JBL Flip 6",
+        "img": "https://tcsgrenada.net/image/cache/catalog/img_7_13_22/JBL-Flip-6-Portable-Bluetooth-Speaker-Powerful-Sound-Deep-Bass-IPX7-Waterproof-12hrs-Playtime-PartyBoost-to-Pair-Multiple-Speakers-for-home-outdoor-travel-black-1024x1024.jpg",
+        "price": 2390000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 16870000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 16870000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "BBM-MR26-0041",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 16870000,
+    "paidAt": {
+      "$date": "2026-11-11T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-11T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-11T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0bbb7f434d1f16f116689191"
+    },
+    "orderNumber": "BBM-MR26-0042",
+    "customer": {
+      "name": "Khách demo 06",
+      "email": "bbm-demo-06@example.com",
+      "phone": "0000000006",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "1cfe368959c8c2d4321c9ac3",
+        "name": "Sony WH-1000XM5",
+        "img": "https://i.ebayimg.com/images/g/fv0AAeSwumNpiqP6/s-l1200.jpg",
+        "price": 7190000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 7190000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 7225000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 7225000,
+    "paidAt": {
+      "$date": "2026-11-12T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-12T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-12T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ebe2f88ced1b3ad46a873604"
+    },
+    "orderNumber": "BBM-MR26-0043",
+    "customer": {
+      "name": "Khách demo 07",
+      "email": "bbm-demo-07@example.com",
+      "phone": "0000000007",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "6a1b9aa94bb2edca312f7cac",
+        "name": "Dell XPS 14 9440",
+        "img": "https://laptopmedia.com/wp-content/uploads/2024/02/6-21-scaled-e1708549995106.jpg",
+        "price": 39990000,
+        "quantity": 1
+      },
+      {
+        "productId": "83556bba3e33ecac2f1a5d0c",
+        "name": "Logitech MX Keys S",
+        "img": "https://cloud-nucleus.com/api/NucleusImage/GetImage/920011587/1.png",
+        "price": 2490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 42480000,
+    "discount": 2124000,
+    "shippingFee": 35000,
+    "total": 40391000,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-12T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-12T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7bcc6fbc1bfec365f13d883f"
+    },
+    "orderNumber": "BBM-MR26-0044",
+    "customer": {
+      "name": "Khách demo 08",
+      "email": "bbm-demo-08@example.com",
+      "phone": "0000000008",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "d167b59a3a2df62d2f732f45",
+        "name": "LG 27GP850-B",
+        "img": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitor/27gp850-b_ahk_echk_hk_en_c/gallery/large04.jpg",
+        "price": 6990000,
+        "quantity": 1
+      },
+      {
+        "productId": "59d48ccbdd7c4cc509866093",
+        "name": "Sony ZV-E10 II",
+        "img": "https://gzhls.at/pix/ef/b2/efb2bc3a6e357353-n.webp",
+        "price": 21990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 28980000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 28980000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-13T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-13T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54bf98e02b1221ab81e7f85b"
+    },
+    "orderNumber": "BBM-MR26-0045",
+    "customer": {
+      "name": "Khách demo 09",
+      "email": "bbm-demo-09@example.com",
+      "phone": "0000000009",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "d167b59a3a2df62d2f732f45",
+        "name": "LG 27GP850-B",
+        "img": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitor/27gp850-b_ahk_echk_hk_en_c/gallery/large04.jpg",
+        "price": 6990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 6990000,
+    "discount": 349500,
+    "shippingFee": 25000,
+    "total": 6665500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "BBM-MR26-0045",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 6665500,
+    "paidAt": {
+      "$date": "2026-11-13T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-13T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-13T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8a3c5ce92917763b9828e6c"
+    },
+    "orderNumber": "BBM-MR26-0046",
+    "customer": {
+      "name": "Khách demo 10",
+      "email": "bbm-demo-10@example.com",
+      "phone": "0000000010",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "05fb1b55924aa75d5780e8e8",
+        "name": "Garmin Vivoactive 5",
+        "img": "https://f.fcdn.app/imgs/afdc30/www.fitpoint.pe/fitppe/706a/original/catalogo/GA010-02862-10_1457_1/2000-2000/reloj-deportivo-garmin-vivoactive-5-negro-slate.jpg",
+        "price": 6290000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 6290000,
+    "discount": 314500,
+    "shippingFee": 35000,
+    "total": 6010500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 6010500,
+    "paidAt": {
+      "$date": "2026-11-14T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-14T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-14T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "188ca1641c9798e26e64c0fc"
+    },
+    "orderNumber": "BBM-MR26-0047",
+    "customer": {
+      "name": "Khách demo 11",
+      "email": "bbm-demo-11@example.com",
+      "phone": "0000000011",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "05fb1b55924aa75d5780e8e8",
+        "name": "Garmin Vivoactive 5",
+        "img": "https://f.fcdn.app/imgs/afdc30/www.fitpoint.pe/fitppe/706a/original/catalogo/GA010-02862-10_1457_1/2000-2000/reloj-deportivo-garmin-vivoactive-5-negro-slate.jpg",
+        "price": 6290000,
+        "quantity": 1
+      },
+      {
+        "productId": "6a1b9aa94bb2edca312f7cac",
+        "name": "Dell XPS 14 9440",
+        "img": "https://laptopmedia.com/wp-content/uploads/2024/02/6-21-scaled-e1708549995106.jpg",
+        "price": 39990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 46280000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 46315000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 46315000,
+    "paidAt": {
+      "$date": "2026-11-14T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-14T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-14T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c9fd39d94c97e4a39c40b2de"
+    },
+    "orderNumber": "BBM-MR26-0048",
+    "customer": {
+      "name": "Khách demo 12",
+      "email": "bbm-demo-12@example.com",
+      "phone": "0000000012",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "ccba3cdadcbc8b2ef3e25d92",
+        "name": "Apple iPad mini A17 Pro",
+        "img": "https://www.usucampusstore.com/Website-Images/Item%20Images/Apple%20iPad%20Mini%20A17%20Pro.1.jpeg?resizeh=1200&resizeid=5&resizew=1200",
+        "price": 12490000,
+        "quantity": 2
+      },
+      {
+        "productId": "f91807955f5cbe79f5b9ac64",
+        "name": "Garmin Forerunner 165",
+        "img": "https://www.elverys.ie/cdn/shop/files/C1-000000000001156325-636Wx636H.jpg?v=1716390070&width=1024",
+        "price": 6290000,
+        "quantity": 2
+      }
+    ],
+    "subtotal": 37560000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 37595000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 37595000,
+    "paidAt": {
+      "$date": "2026-11-15T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-15T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-15T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68741e56984074d45c9cf698"
+    },
+    "orderNumber": "BBM-MR26-0049",
+    "customer": {
+      "name": "Khách demo 13",
+      "email": "bbm-demo-13@example.com",
+      "phone": "0000000013",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000008",
+        "name": "Huawei Matebook X Pro",
+        "img": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+        "price": 22990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 22990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 23025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "cancelled",
+    "createdAt": {
+      "$date": "2026-11-15T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-15T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1fb21ce89b31cce74870429b"
+    },
+    "orderNumber": "BBM-MR26-0050",
+    "customer": {
+      "name": "Khách demo 14",
+      "email": "bbm-demo-14@example.com",
+      "phone": "0000000014",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000010",
+        "name": "Apple AirPods Max Silver",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp",
+        "price": 9990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 9990000,
+    "discount": 499500,
+    "shippingFee": 35000,
+    "total": 9525500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-16T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-16T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bdc71fc532ca040a2b05124a"
+    },
+    "orderNumber": "BBM-MR26-0051",
+    "customer": {
+      "name": "Khách demo 15",
+      "email": "bbm-demo-15@example.com",
+      "phone": "0000000015",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "05fb1b55924aa75d5780e8e8",
+        "name": "Garmin Vivoactive 5",
+        "img": "https://f.fcdn.app/imgs/afdc30/www.fitpoint.pe/fitppe/706a/original/catalogo/GA010-02862-10_1457_1/2000-2000/reloj-deportivo-garmin-vivoactive-5-negro-slate.jpg",
+        "price": 6290000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 6290000,
+    "discount": 314500,
+    "shippingFee": 35000,
+    "total": 6010500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "BBM-MR26-0051",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 6010500,
+    "paidAt": {
+      "$date": "2026-11-16T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-16T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-16T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cc4b938fcd493f84f3767636"
+    },
+    "orderNumber": "BBM-MR26-0052",
+    "customer": {
+      "name": "Khách demo 16",
+      "email": "bbm-demo-16@example.com",
+      "phone": "0000000016",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "237f117a53b14ef6a38a127f",
+        "name": "Canon EOS R10",
+        "img": "https://www.pictureline.com/cdn/shop/products/EOS-R10-Mirrorless-Digital-Camera-Body-1_4ae2ffd0-02cb-4dd1-9a82-11a69825b79d.jpg?v=1653407959&width=1200",
+        "price": 15990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 15990000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 16025000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 16025000,
+    "paidAt": {
+      "$date": "2026-11-17T08:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-17T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-17T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d70425e8470fa0d8abfc0af1"
+    },
+    "orderNumber": "BBM-MR26-0053",
+    "customer": {
+      "name": "Khách demo 17",
+      "email": "bbm-demo-17@example.com",
+      "phone": "0000000017",
+      "address": "Địa chỉ giao hàng mô phỏng, Biên Hòa",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "0e2171ef5bb36d6761ae079a",
+        "name": "Apple AirPods 4",
+        "img": "https://cdn.laredoute.com/cdn-cgi/image/width%3D500%2Cheight%3D500%2Cfit%3Dpad%2Cdpr%3D1/products/e/5/3/e53177711b49970e5196ce789fa3152e.jpg",
+        "price": 3290000,
+        "quantity": 2
+      },
+      {
+        "productId": "2fc963461e77cf602a8f5d98",
+        "name": "Samsung Galaxy Tab S10 FE",
+        "img": "https://cdn5.coppel.com/pm/2875563-1.jpg?iresize=width%3A400%2Cheight%3A320",
+        "price": 10990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 17570000,
+    "discount": 0,
+    "shippingFee": 25000,
+    "total": 17595000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "paid",
+    "paidAmount": 17595000,
+    "paidAt": {
+      "$date": "2026-11-17T20:00:00.000Z"
+    },
+    "status": "delivered",
+    "createdAt": {
+      "$date": "2026-11-17T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-17T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b1a7eec4d83233bbb5b4ef7a"
+    },
+    "orderNumber": "BBM-MR26-0054",
+    "customer": {
+      "name": "Khách demo 18",
+      "email": "bbm-demo-18@example.com",
+      "phone": "0000000018",
+      "address": "Địa chỉ giao hàng mô phỏng, TP. Hồ Chí Minh",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "c2d2f5c01cc585070b8c106b",
+        "name": "Samsung Galaxy Watch7",
+        "img": "https://www.samsungmobile.co.il/pub/media/catalog/product/cache/a1ead2c2961e2ce13911c89cbb3a882f/c/0/C000001035_1-17206148132891701.jpg",
+        "price": 4990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 4990000,
+    "discount": 249500,
+    "shippingFee": 35000,
+    "total": 4775500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-18T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-18T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6caa5151cedd30712f16f4cb"
+    },
+    "orderNumber": "BBM-MR26-0055",
+    "customer": {
+      "name": "Khách demo 19",
+      "email": "bbm-demo-19@example.com",
+      "phone": "0000000019",
+      "address": "Địa chỉ giao hàng mô phỏng, Hà Nội",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000012",
+        "name": "Apple iPhone Charger",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+        "price": 490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 490000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 525000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-18T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-18T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4f120fc7667dad3dc7234e39"
+    },
+    "orderNumber": "BBM-MR26-0056",
+    "customer": {
+      "name": "Khách demo 20",
+      "email": "bbm-demo-20@example.com",
+      "phone": "0000000020",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Nẵng",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "3e12a0d8663c506f9221610a",
+        "name": "Samsung T7 Shield",
+        "img": "https://pmdshop.uk/cdn/shop/files/SamsungPortableSSDT7Shield_3_1200x1200.png?v=1695043172",
+        "price": 3290000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 3290000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 3325000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-19T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-19T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bf2e6a0a57992dfc7208380c"
+    },
+    "orderNumber": "BBM-MR26-0057",
+    "customer": {
+      "name": "Khách demo 21",
+      "email": "bbm-demo-21@example.com",
+      "phone": "0000000021",
+      "address": "Địa chỉ giao hàng mô phỏng, Cần Thơ",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef0002000000000000000a",
+        "name": "New DELL XPS 13 9300 Laptop",
+        "img": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+        "price": 19990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 19990000,
+    "discount": 0,
+    "shippingFee": 0,
+    "total": 19990000,
+    "depositAmount": 0,
+    "couponCode": "BBMTESTSHIP",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-11-19T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-19T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c7ac5c7f8fd33438b0189c0"
+    },
+    "orderNumber": "BBM-MR26-0058",
+    "customer": {
+      "name": "Khách demo 22",
+      "email": "bbm-demo-22@example.com",
+      "phone": "0000000022",
+      "address": "Địa chỉ giao hàng mô phỏng, Vũng Tàu",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "beef00020000000000000012",
+        "name": "Apple iPhone Charger",
+        "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+        "price": 490000,
+        "quantity": 1
+      },
+      {
+        "productId": "1b4fb0ee22d285cc9f5e30c6",
+        "name": "Canon EOS R7",
+        "img": "https://img.bonne-promo.com/guide/19305/canon-eos-r7-boitier-nu-appareil-photo-hybride-1.png",
+        "price": 26990000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 27480000,
+    "discount": 0,
+    "shippingFee": 35000,
+    "total": 27515000,
+    "depositAmount": 0,
+    "couponCode": "",
+    "paymentReference": "",
+    "paymentMethod": "cod",
+    "paymentStatus": "unpaid",
+    "paidAmount": 0,
+    "paidAt": null,
+    "status": "pending",
+    "createdAt": {
+      "$date": "2026-11-20T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-20T07:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3f92ee4fe10d49f8e1915361"
+    },
+    "orderNumber": "BBM-MR26-0059",
+    "customer": {
+      "name": "Khách demo 23",
+      "email": "bbm-demo-23@example.com",
+      "phone": "0000000023",
+      "address": "Địa chỉ giao hàng mô phỏng, Nha Trang",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "a07c297fd904001bca3bf9e9",
+        "name": "Samsung Galaxy A56 5G",
+        "img": "https://www.pbtech.co.nz/imgprod/M/P/MPHSAM2356601.jpg?h=3084599751",
+        "price": 9490000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 9490000,
+    "discount": 474500,
+    "shippingFee": 35000,
+    "total": 9050500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "BBM-MR26-0059",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 9050500,
+    "paidAt": {
+      "$date": "2026-11-20T20:00:00.000Z"
+    },
+    "status": "shipped",
+    "createdAt": {
+      "$date": "2026-11-20T19:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-20T21:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "75e87bfcc6bb4a569c00676a"
+    },
+    "orderNumber": "BBM-MR26-0060",
+    "customer": {
+      "name": "Khách demo 24",
+      "email": "bbm-demo-24@example.com",
+      "phone": "0000000024",
+      "address": "Địa chỉ giao hàng mô phỏng, Đà Lạt",
+      "note": ""
+    },
+    "items": [
+      {
+        "productId": "cf41249e4fd5087262b7c740",
+        "name": "Sony WF-1000XM5",
+        "img": "https://www.e-earphone.jp/cdn/shop/files/586626_1318674_1400x.jpg?v=1749781022",
+        "price": 5390000,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 5390000,
+    "discount": 269500,
+    "shippingFee": 35000,
+    "total": 5155500,
+    "depositAmount": 0,
+    "couponCode": "BBMTEST05",
+    "paymentReference": "BBM-MR26-0060",
+    "paymentMethod": "bank",
+    "paymentStatus": "paid",
+    "paidAmount": 5155500,
+    "paidAt": {
+      "$date": "2026-11-21T08:00:00.000Z"
+    },
+    "status": "processing",
+    "createdAt": {
+      "$date": "2026-11-21T07:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T09:00:00.000Z"
+    }
+  }
+]

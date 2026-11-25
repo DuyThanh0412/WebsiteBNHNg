@@ -1,0 +1,130 @@
+[
+  {
+    "_id": {
+      "$oid": "beef00010000000000000001"
+    },
+    "name": "Điện thoại",
+    "icon": "📱",
+    "desc": "Danh mục điện thoại",
+    "count": 10,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000002"
+    },
+    "name": "Laptop",
+    "icon": "💻",
+    "desc": "Danh mục laptop",
+    "count": 10,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000003"
+    },
+    "name": "Máy tính bảng",
+    "icon": "📲",
+    "desc": "Danh mục máy tính bảng",
+    "count": 8,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000004"
+    },
+    "name": "Âm thanh",
+    "icon": "🎧",
+    "desc": "Danh mục âm thanh",
+    "count": 10,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000005"
+    },
+    "name": "Đồng hồ thông minh",
+    "icon": "⌚",
+    "desc": "Danh mục đồng hồ thông minh",
+    "count": 6,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000006"
+    },
+    "name": "Phụ kiện",
+    "icon": "🔌",
+    "desc": "Danh mục phụ kiện",
+    "count": 8,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000007"
+    },
+    "name": "Camera",
+    "icon": "📷",
+    "desc": "Danh mục camera",
+    "count": 6,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00010000000000000008"
+    },
+    "name": "Màn hình",
+    "icon": "🖥️",
+    "desc": "Danh mục màn hình",
+    "count": 6,
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  }
+]

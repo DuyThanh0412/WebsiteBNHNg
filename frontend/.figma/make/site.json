@@ -1,0 +1,10 @@
+{
+  "description": "Enables users to browse, select, and purchase products online through a streamlined e-commerce platform designed for efficient shopping experiences.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

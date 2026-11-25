@@ -1,0 +1,6 @@
+.bbm-admin { font-family: Inter, Arial, sans-serif; }
+.bbm-admin .font-display { font-family: inherit; }
+.bbm-admin button, .bbm-admin select { cursor: pointer; }
+.bbm-admin button:disabled { cursor: default; }
+.bbm-admin button:focus-visible, .bbm-admin a:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
+@media print { .bbm-admin .no-print { display: none !important; } }

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-primary: #1a6fdb;
+  --color-primary-dark: #1558b0;
+  --color-accent: #f97316;
+  --color-background: #f0f5fc;
+  --color-surface: #ffffff;
+  --color-border: #e2eaf6;
+  --color-text: #1a2236;
+  --color-muted: #6b7a99;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+}
+
+* {
+  font-family: 'Outfit', system-ui, sans-serif;
+}
+
+body {
+  background-color: #f0f5fc;
+  color: #1a2236;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; opacity: 0; }
+::-webkit-scrollbar:hover { opacity: 1; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c5d3e8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #1a6fdb; }
+
+@theme inline {
+  --color-adm-navy: #0a1a3c;
+  --color-adm-navy-2: #11264f;
+  --color-adm-bg: #f3f6fb;
+  --color-adm-line: #e6eaf2;
+  --color-adm-ink: #1a2236;
+  --color-adm-muted: #6b7a99;
+  --color-adm-primary: #1a6fdb;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  html,
+  body {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  body > #root {
+    display: none !important;
+  }
+
+  body > .order-print-preview-overlay {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  .order-print-preview-dialog,
+  .order-print-preview-content {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .order-print-preview-header,
+  .order-print-preview-actions {
+    display: none !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  #order-print-root,
+  #order-print-root * {
+    visibility: visible !important;
+  }
+
+  #order-print-root {
+    position: static !important;
+    box-sizing: border-box !important;
+    width: 190mm !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 5mm !important;
+    box-shadow: none !important;
+    color: #111 !important;
+    font-size: 10pt !important;
+    line-height: 1.2 !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  #order-print-root > div:first-child {
+    gap: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  #order-print-root > div:nth-child(2) {
+    gap: 12px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  #order-print-root > div:nth-child(2) h4,
+  #order-print-root > div:nth-child(3) h4 {
+    margin-bottom: 4px !important;
+  }
+
+  #order-print-root > div:nth-child(3) {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  #order-print-root table {
+    width: 100% !important;
+    font-size: 9pt !important;
+  }
+
+  #order-print-root th,
+  #order-print-root td {
+    padding: 4px 6px !important;
+  }
+
+  #order-print-root > div:nth-child(4) {
+    gap: 4px !important;
+    padding-top: 8px !important;
+    font-size: 9pt !important;
+  }
+
+  #order-print-root > div:nth-child(4) p {
+    margin: 0 !important;
+  }
+
+  #order-print-root > p:last-child {
+    margin-top: 12px !important;
+  }
+
+  #order-print-root tr,
+  #order-print-root th,
+  #order-print-root td {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}

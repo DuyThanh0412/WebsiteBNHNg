@@ -1,0 +1,32 @@
+BIGBANGMART - BỘ DỮ LIỆU ĐIỆN TỬ ĐÃ CÓ ẢNH
+24 sản phẩm, 8 danh mục, 4 khuyến mãi, 5 đơn COD mẫu.
+Các danh mục theo thanh điều hướng trong ảnh bạn gửi.
+Giá VNĐ, tồn kho, khách hàng và đơn hàng là dữ liệu minh họa.
+Tên sản phẩm và URL ảnh từ DummyJSON; camera và màn hình từ kết quả tìm ảnh sản phẩm.
+URL đã điền sẵn trong img và ảnh của từng dòng đơn hàng.
+
+CÁCH DÙNG JSON
+MongoDB Compass > bigbangmart > collection tương ứng > Add Data > Import JSON.
+products.json hoặc products-electronics.json -> products (hai file cùng nội dung).
+categories.json -> categories
+promotions.json -> promotions
+orders.json -> orders
+Import products trước orders. Mỗi phần tử mảng là một document.
+bigbangmart-electronics.json là bản tổng hợp, KHÔNG import toàn bộ vào một collection.
+Các ID là ObjectId ở dạng Extended JSON. Import lại có thể báo trùng ID.
+
+CÁCH NẠP TỰ ĐỘNG
+Đặt cả thư mục này trong backend rồi chạy: node bigbangmart-electronics/import-electronics.cjs
+Script dùng mongoose và dotenv đã cài trong backend; đọc .env của thư mục đang chạy.
+Nếu từng nạp bộ thực phẩm demo cũ, chạy thêm tùy chọn --hide-old-demo để ẩn đúng các bản ghi demo cũ đã nhận diện; không xóa chúng.
+Script giữ nguyên dữ liệu khác. Chạy lại sẽ bỏ qua ID đã có, không tạo bản trùng.
+
+LƯU Ý
+Đây là bộ thay thế bản thực phẩm gửi nhầm trước đó.
+Nếu frontend đã hardcode slug hoặc tên danh mục khác, cần đối chiếu frontend; hiện chỉ có backend và ảnh giao diện để đối chiếu.
+Ảnh là URL bên ngoài, khả năng tải còn phụ thuộc máy chủ ảnh và CSP của web.
+Chưa kiểm thử giao diện local của bạn; chưa xác nhận từng URL tải thành công trong trình duyệt của bạn.
+Không coi ảnh bên ngoài là tài sản đã được cấp quyền sử dụng thương mại.
+Nguồn ảnh demo: https://dummyjson.com/
+Camera: https://www.saturn.de/de/product/_canon-eos-r50-schwarz-rf-s-18-45-is-stm-spiegellose-systemkameras-mit-objektiv-18-45-mm-75-cm-display-touchscreen-wlan-106622228.html
+Màn hình: https://www.pontofrio.com.br/monitor-samsung-24-full-hd-ips-freesync-75hz-hdmi-f24t350fhl/p/55028105

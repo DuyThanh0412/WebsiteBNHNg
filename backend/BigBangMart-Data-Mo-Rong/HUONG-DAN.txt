@@ -1,0 +1,25 @@
+BIGBANGMART — DỮ LIỆU ĐIỆN TỬ MỞ RỘNG
+
+Bộ dữ liệu đi theo cấu trúc của Data.rar.
+64 sản phẩm (thêm 40), 8 danh mục, 5 khuyến mãi, 65 đơn hàng (thêm 60).
+Tên và ảnh của sản phẩm mới dựa trên các mẫu thiết bị có thật. Một số ảnh minh họa phiên bản hoặc màu cụ thể của cùng mẫu. URL ảnh đến từ website bên ngoài. Khả năng hiển thị phụ thuộc vào máy chủ ảnh và cấu hình web.
+Giá, tồn kho, khuyến mãi, thông tin khách và giao dịch là dữ liệu mô phỏng. 36 hồ sơ khách mới nằm trong orders.json và không tạo tài khoản đăng nhập.
+
+NẠP BẰNG MONGODB COMPASS VÀO DATABASE THỬ NGHIỆM
+Giải nén rồi dùng Add Data > Import JSON trong từng collection:
+1. categories.json vào categories
+2. products.json vào products
+3. promotions.json vào promotions
+4. orders.json vào orders
+Mỗi file là một mảng MongoDB Extended JSON. bigbangmart-electronics.json là bản tổng hợp dùng để xem hoặc trao đổi dữ liệu.
+
+NẾU ĐÃ NẠP DATA.RAR
+Dùng script để thêm các bản ghi mới theo _id, bỏ qua bản ghi gốc đã có:
+1. Giải nén thư mục BigBangMart-Data-Mo-Rong vào backend đã cài mongoose và dotenv.
+2. Mở Terminal tại backend và kiểm tra MONGO_URI trong .env trỏ đúng database thử nghiệm.
+3. Chạy kiểm tra cấu trúc: node BigBangMart-Data-Mo-Rong/import-electronics.cjs --check
+4. Nạp dữ liệu: node BigBangMart-Data-Mo-Rong/import-electronics.cjs
+Script giữ nguyên tài liệu đã có, nên count ở các danh mục cũ trong DB có thể vẫn giữ số trước khi nạp. File categories.json đã có số lượng theo bộ dữ liệu mở rộng.
+Nếu đã nhập BigBang.rar (bản 3 sản phẩm), dùng database thử nghiệm riêng: BigBang.rar và Data.rar có một số _id trùng nhau nhưng thuộc bản ghi khác. Script sẽ báo xung đột nếu phát hiện cùng _id nhưng khác định danh.
+
+Nếu đã nạp phiên bản 12 mã, script chỉ thêm các bản ghi còn thiếu. Các mã đã nhập trước đó vẫn nằm trong MongoDB.

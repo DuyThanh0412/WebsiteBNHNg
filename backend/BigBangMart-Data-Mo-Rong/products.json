@@ -1,0 +1,1346 @@
+[
+  {
+    "_id": {
+      "$oid": "beef00020000000000000001"
+    },
+    "name": "iPhone 13 Pro",
+    "category": "Điện thoại",
+    "price": 12990000,
+    "original": 14440000,
+    "off": 10,
+    "stock": 11,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Điện thoại iPhone 13 Pro. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000002"
+    },
+    "name": "iPhone X",
+    "category": "Điện thoại",
+    "price": 3990000,
+    "original": 4440000,
+    "off": 10,
+    "stock": 12,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Điện thoại iPhone X. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000003"
+    },
+    "name": "Oppo A57",
+    "category": "Điện thoại",
+    "price": 2990000,
+    "original": 3330000,
+    "off": 10,
+    "stock": 13,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
+    "brand": "Oppo",
+    "description": "Điện thoại Oppo A57. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000004"
+    },
+    "name": "Oppo F19 Pro Plus",
+    "category": "Điện thoại",
+    "price": 4990000,
+    "original": 5550000,
+    "off": 10,
+    "stock": 14,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+    "brand": "Oppo",
+    "description": "Điện thoại Oppo F19 Pro Plus. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000005"
+    },
+    "name": "Realme C35",
+    "category": "Điện thoại",
+    "price": 2790000,
+    "original": 3100000,
+    "off": 10,
+    "stock": 0,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
+    "brand": "Realme",
+    "description": "Điện thoại Realme C35. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000006"
+    },
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "category": "Laptop",
+    "price": 29990000,
+    "original": 33330000,
+    "off": 10,
+    "stock": 16,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Laptop Apple MacBook Pro 14 Inch Space Grey. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000007"
+    },
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "category": "Laptop",
+    "price": 32990000,
+    "original": 36660000,
+    "off": 10,
+    "stock": 17,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
+    "brand": "Asus",
+    "description": "Laptop Asus Zenbook Pro Dual Screen Laptop. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000008"
+    },
+    "name": "Huawei Matebook X Pro",
+    "category": "Laptop",
+    "price": 22990000,
+    "original": 25550000,
+    "off": 10,
+    "stock": 3,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+    "brand": "Huawei",
+    "description": "Laptop Huawei Matebook X Pro. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000009"
+    },
+    "name": "Lenovo Yoga 920",
+    "category": "Laptop",
+    "price": 14990000,
+    "original": 16660000,
+    "off": 10,
+    "stock": 19,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+    "brand": "Lenovo",
+    "description": "Laptop Lenovo Yoga 920. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000a"
+    },
+    "name": "New DELL XPS 13 9300 Laptop",
+    "category": "Laptop",
+    "price": 19990000,
+    "original": 22220000,
+    "off": 10,
+    "stock": 20,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+    "brand": "Dell",
+    "description": "Laptop New DELL XPS 13 9300 Laptop. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000b"
+    },
+    "name": "iPad Mini 2021 Starlight",
+    "category": "Máy tính bảng",
+    "price": 8990000,
+    "original": 9990000,
+    "off": 10,
+    "stock": 21,
+    "img": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Máy tính bảng iPad Mini 2021 Starlight. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000c"
+    },
+    "name": "Samsung Galaxy Tab S8 Plus Grey",
+    "category": "Máy tính bảng",
+    "price": 14990000,
+    "original": 16660000,
+    "off": 10,
+    "stock": 22,
+    "img": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp",
+    "brand": "Samsung",
+    "description": "Máy tính bảng Samsung Galaxy Tab S8 Plus Grey. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000d"
+    },
+    "name": "Samsung Galaxy Tab White",
+    "category": "Máy tính bảng",
+    "price": 3990000,
+    "original": 4440000,
+    "off": 10,
+    "stock": 23,
+    "img": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp",
+    "brand": "Samsung",
+    "description": "Máy tính bảng Samsung Galaxy Tab White. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000e"
+    },
+    "name": "Amazon Echo Plus",
+    "category": "Âm thanh",
+    "price": 1990000,
+    "original": 2220000,
+    "off": 10,
+    "stock": 24,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+    "brand": "Amazon",
+    "description": "Âm thanh Amazon Echo Plus. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000f"
+    },
+    "name": "Apple Airpods",
+    "category": "Âm thanh",
+    "price": 2490000,
+    "original": 2770000,
+    "off": 10,
+    "stock": 25,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Âm thanh Apple Airpods. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000010"
+    },
+    "name": "Apple AirPods Max Silver",
+    "category": "Âm thanh",
+    "price": 9990000,
+    "original": 11100000,
+    "off": 10,
+    "stock": 26,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Âm thanh Apple AirPods Max Silver. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000011"
+    },
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "category": "Âm thanh",
+    "price": 2290000,
+    "original": 2550000,
+    "off": 10,
+    "stock": 27,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Âm thanh Apple HomePod Mini Cosmic Grey. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000012"
+    },
+    "name": "Apple iPhone Charger",
+    "category": "Phụ kiện",
+    "price": 490000,
+    "original": 550000,
+    "off": 11,
+    "stock": 28,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Phụ kiện Apple iPhone Charger. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000013"
+    },
+    "name": "Apple MagSafe Battery Pack",
+    "category": "Phụ kiện",
+    "price": 1990000,
+    "original": 2220000,
+    "off": 10,
+    "stock": 29,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Phụ kiện Apple MagSafe Battery Pack. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000014"
+    },
+    "name": "Apple Watch Series 4 Gold",
+    "category": "Đồng hồ thông minh",
+    "price": 3490000,
+    "original": 3880000,
+    "off": 10,
+    "stock": 30,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Đồng hồ thông minh Apple Watch Series 4 Gold. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000015"
+    },
+    "name": "Beats Flex Wireless Earphones",
+    "category": "Âm thanh",
+    "price": 1190000,
+    "original": 1330000,
+    "off": 11,
+    "stock": 31,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/thumbnail.webp",
+    "brand": "Beats",
+    "description": "Âm thanh Beats Flex Wireless Earphones. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000016"
+    },
+    "name": "iPhone 12 Silicone Case with MagSafe Plum",
+    "category": "Phụ kiện",
+    "price": 390000,
+    "original": 440000,
+    "off": 11,
+    "stock": 32,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Phụ kiện iPhone 12 Silicone Case with MagSafe Plum. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000017"
+    },
+    "name": "Canon EOS R50 kèm RF-S 18-45mm",
+    "category": "Camera",
+    "price": 17990000,
+    "original": 19990000,
+    "off": 10,
+    "stock": 33,
+    "img": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_175914102?align=center&ex=697&ey=523&format=webp&quality=60&resizesource=&sp=yes&strip=yes&trim=yes&unsharp=0.5x0.5&x=697&y=523",
+    "brand": "Canon",
+    "description": "Camera Canon EOS R50 kèm RF-S 18-45mm. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000018"
+    },
+    "name": "Màn hình Samsung T350 24 inch",
+    "category": "Màn hình",
+    "price": 2490000,
+    "original": 2770000,
+    "off": 10,
+    "stock": 34,
+    "img": "https://imgs.pontofrio.com.br/55028105/1xg.jpg?imwidth=1000",
+    "brand": "Samsung",
+    "description": "Màn hình Màn hình Samsung T350 24 inch. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ef84ce4ff3c0690de819993"
+    },
+    "name": "Apple iPhone 16",
+    "category": "Điện thoại",
+    "price": 18990000,
+    "original": 18990000,
+    "off": 0,
+    "stock": 48,
+    "img": "https://g8.ru/wp-content/uploads/2024/09/apple-iphone-16-ultramarine-0-1.jpeg",
+    "brand": "Apple",
+    "description": "Điện thoại có nút Điều Khiển Camera.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "185900ab9e1a35a0e610c551"
+    },
+    "name": "Apple iPhone 16e",
+    "category": "Điện thoại",
+    "price": 14990000,
+    "original": 15740000,
+    "off": 5,
+    "stock": 13,
+    "img": "https://www.costco.com.tw/medias/sys_master/images/h62/h4b/327562453418014.jpg",
+    "brand": "Apple",
+    "description": "Điện thoại sử dụng chip A18 và cổng USB-C.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f6aff56ff069a64681a2d01"
+    },
+    "name": "Samsung Galaxy S25 Ultra",
+    "category": "Điện thoại",
+    "price": 27990000,
+    "original": 29490000,
+    "off": 5,
+    "stock": 2,
+    "img": "https://a.allegroimg.com/original/29396e/aad7eddb47c6901eedd8a044fcbf/Okostelefon-Samsung-Galaxy-S25-Ultra-12-GB-512-GB-5G-szuerke",
+    "brand": "Samsung",
+    "description": "Điện thoại dòng Galaxy S tích hợp bút S Pen.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a07c297fd904001bca3bf9e9"
+    },
+    "name": "Samsung Galaxy A56 5G",
+    "category": "Điện thoại",
+    "price": 9490000,
+    "original": 9790000,
+    "off": 3,
+    "stock": 9,
+    "img": "https://www.pbtech.co.nz/imgprod/M/P/MPHSAM2356601.jpg?h=3084599751",
+    "brand": "Samsung",
+    "description": "Điện thoại Galaxy A hỗ trợ kết nối 5G.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cc1de67f8bc696c7b3e0957d"
+    },
+    "name": "Google Pixel 9",
+    "category": "Điện thoại",
+    "price": 15990000,
+    "original": 17490000,
+    "off": 9,
+    "stock": 35,
+    "img": "https://www.dateks.lv/images/pic/2400/2400/399/1797.jpg",
+    "brand": "Google",
+    "description": "Điện thoại Pixel với chip Tensor G4.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ea47467126cf208cc55092d"
+    },
+    "name": "ASUS Zenbook 14 OLED UX3405",
+    "category": "Laptop",
+    "price": 23990000,
+    "original": 23990000,
+    "off": 0,
+    "stock": 16,
+    "img": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/asus/thumb/149721-1_large.jpg",
+    "brand": "ASUS",
+    "description": "Laptop Zenbook 14 inch dùng màn hình OLED.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4ffe9f770d83286a68052ec6"
+    },
+    "name": "ASUS ROG Zephyrus G14 GA403",
+    "category": "Laptop",
+    "price": 44990000,
+    "original": 46490000,
+    "off": 3,
+    "stock": 0,
+    "img": "https://kontakt.az/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/t/m/tm-dg-kot-1114-nb-3483_1_1_.png",
+    "brand": "ASUS",
+    "description": "Laptop gaming thuộc dòng ROG Zephyrus 14 inch.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eee0172af18406fb7bc3cc71"
+    },
+    "name": "Apple MacBook Air 13 M4",
+    "category": "Laptop",
+    "price": 24990000,
+    "original": 26490000,
+    "off": 6,
+    "stock": 48,
+    "img": "https://quickshipelectronics.com/cdn/shop/files/sdf_30421f2f-b558-4a9a-9d8d-3149000180d6.png?v=1778261620",
+    "brand": "Apple",
+    "description": "Laptop 13 inch sử dụng chip Apple M4.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b71ae111b6632dcf5cdca76c"
+    },
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "category": "Laptop",
+    "price": 35990000,
+    "original": 37490000,
+    "off": 4,
+    "stock": 35,
+    "img": "https://cdn.mos.cms.futurecdn.net/qm6ZswWYXHF2KtJou8JFHK.jpg",
+    "brand": "Lenovo",
+    "description": "Laptop doanh nghiệp thuộc dòng ThinkPad X1 Carbon.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a1b9aa94bb2edca312f7cac"
+    },
+    "name": "Dell XPS 14 9440",
+    "category": "Laptop",
+    "price": 39990000,
+    "original": 40490000,
+    "off": 1,
+    "stock": 48,
+    "img": "https://laptopmedia.com/wp-content/uploads/2024/02/6-21-scaled-e1708549995106.jpg",
+    "brand": "Dell",
+    "description": "Laptop 14 inch thuộc dòng Dell XPS.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2e728c1fe320648e6423d3d7"
+    },
+    "name": "Apple iPad A16",
+    "category": "Máy tính bảng",
+    "price": 8890000,
+    "original": 8890000,
+    "off": 0,
+    "stock": 9,
+    "img": "https://istyle.ae/cdn/shop/files/IMG-16745587_m_jpg_1.jpg?v=1749028036",
+    "brand": "Apple",
+    "description": "Máy tính bảng iPad sử dụng chip A16.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ccba3cdadcbc8b2ef3e25d92"
+    },
+    "name": "Apple iPad mini A17 Pro",
+    "category": "Máy tính bảng",
+    "price": 12490000,
+    "original": 12990000,
+    "off": 4,
+    "stock": 35,
+    "img": "https://www.usucampusstore.com/Website-Images/Item%20Images/Apple%20iPad%20Mini%20A17%20Pro.1.jpeg?resizeh=1200&resizeid=5&resizew=1200",
+    "brand": "Apple",
+    "description": "Máy tính bảng nhỏ gọn dùng chip A17 Pro.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2fc963461e77cf602a8f5d98"
+    },
+    "name": "Samsung Galaxy Tab S10 FE",
+    "category": "Máy tính bảng",
+    "price": 10990000,
+    "original": 10990000,
+    "off": 0,
+    "stock": 48,
+    "img": "https://cdn5.coppel.com/pm/2875563-1.jpg?iresize=width%3A400%2Cheight%3A320",
+    "brand": "Samsung",
+    "description": "Máy tính bảng Galaxy Tab FE hỗ trợ bút S Pen.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "334d62ada06a21fbc8e9325d"
+    },
+    "name": "Lenovo Tab P12",
+    "category": "Máy tính bảng",
+    "price": 7490000,
+    "original": 7640000,
+    "off": 2,
+    "stock": 27,
+    "img": "https://img-itopya.mncdn.com/cdn/1000/1-c1fbfc.png",
+    "brand": "Lenovo",
+    "description": "Máy tính bảng Android màn hình 12,7 inch.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "76b8571c47c429964771652b"
+    },
+    "name": "Xiaomi Pad 7",
+    "category": "Máy tính bảng",
+    "price": 9290000,
+    "original": 9490000,
+    "off": 2,
+    "stock": 27,
+    "img": "https://xiaomistoreph.com/cdn/shop/files/Xiaomi_XiaomiPad7_WBG_5_1198x1198.jpg?v=1749552680",
+    "brand": "Xiaomi",
+    "description": "Máy tính bảng Xiaomi với màn hình 11,2 inch.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1cfe368959c8c2d4321c9ac3"
+    },
+    "name": "Sony WH-1000XM5",
+    "category": "Âm thanh",
+    "price": 7190000,
+    "original": 7290000,
+    "off": 1,
+    "stock": 35,
+    "img": "https://i.ebayimg.com/images/g/fv0AAeSwumNpiqP6/s-l1200.jpg",
+    "brand": "Sony",
+    "description": "Tai nghe chụp tai không dây có chống ồn chủ động.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cf41249e4fd5087262b7c740"
+    },
+    "name": "Sony WF-1000XM5",
+    "category": "Âm thanh",
+    "price": 5390000,
+    "original": 5540000,
+    "off": 3,
+    "stock": 16,
+    "img": "https://www.e-earphone.jp/cdn/shop/files/586626_1318674_1400x.jpg?v=1749781022",
+    "brand": "Sony",
+    "description": "Tai nghe true wireless có chống ồn chủ động.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4bb253febaaa3b44501fc31"
+    },
+    "name": "JBL Flip 6",
+    "category": "Âm thanh",
+    "price": 2390000,
+    "original": 2490000,
+    "off": 4,
+    "stock": 27,
+    "img": "https://tcsgrenada.net/image/cache/catalog/img_7_13_22/JBL-Flip-6-Portable-Bluetooth-Speaker-Powerful-Sound-Deep-Bass-IPX7-Waterproof-12hrs-Playtime-PartyBoost-to-Pair-Multiple-Speakers-for-home-outdoor-travel-black-1024x1024.jpg",
+    "brand": "JBL",
+    "description": "Loa Bluetooth di động thuộc dòng Flip.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "810cd660c962e438be3e9cc7"
+    },
+    "name": "JBL Charge 5",
+    "category": "Âm thanh",
+    "price": 3490000,
+    "original": 3790000,
+    "off": 8,
+    "stock": 16,
+    "img": "https://imtc.qccdn.fr/test/enceinte-bluetooth/zoom/jbl-charge-5_001.jpg",
+    "brand": "JBL",
+    "description": "Loa Bluetooth thuộc dòng Charge.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0e2171ef5bb36d6761ae079a"
+    },
+    "name": "Apple AirPods 4",
+    "category": "Âm thanh",
+    "price": 3290000,
+    "original": 3590000,
+    "off": 8,
+    "stock": 13,
+    "img": "https://cdn.laredoute.com/cdn-cgi/image/width%3D500%2Cheight%3D500%2Cfit%3Dpad%2Cdpr%3D1/products/e/5/3/e53177711b49970e5196ce789fa3152e.jpg",
+    "brand": "Apple",
+    "description": "Tai nghe true wireless, hộp sạc USB-C.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f91807955f5cbe79f5b9ac64"
+    },
+    "name": "Garmin Forerunner 165",
+    "category": "Đồng hồ thông minh",
+    "price": 6290000,
+    "original": 6590000,
+    "off": 5,
+    "stock": 35,
+    "img": "https://www.elverys.ie/cdn/shop/files/C1-000000000001156325-636Wx636H.jpg?v=1716390070&width=1024",
+    "brand": "Garmin",
+    "description": "Đồng hồ GPS hướng đến người tập chạy bộ.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "05fb1b55924aa75d5780e8e8"
+    },
+    "name": "Garmin Vivoactive 5",
+    "category": "Đồng hồ thông minh",
+    "price": 6290000,
+    "original": 6590000,
+    "off": 5,
+    "stock": 27,
+    "img": "https://f.fcdn.app/imgs/afdc30/www.fitpoint.pe/fitppe/706a/original/catalogo/GA010-02862-10_1457_1/2000-2000/reloj-deportivo-garmin-vivoactive-5-negro-slate.jpg",
+    "brand": "Garmin",
+    "description": "Đồng hồ theo dõi vận động sử dụng màn hình AMOLED.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b3e64ac941f26b1b20ca54b5"
+    },
+    "name": "Garmin Venu 3S",
+    "category": "Đồng hồ thông minh",
+    "price": 10490000,
+    "original": 11240000,
+    "off": 7,
+    "stock": 9,
+    "img": "https://www.highlytunedathletes.com.au/cdn/shop/files/1__75899.1693440068_1200x1200.jpg?v=1764410839",
+    "brand": "Garmin",
+    "description": "Đồng hồ thông minh hỗ trợ theo dõi sức khỏe và tập luyện.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52e6b181162500ca0cb7be76"
+    },
+    "name": "Apple Watch Series 10",
+    "category": "Đồng hồ thông minh",
+    "price": 9490000,
+    "original": 9690000,
+    "off": 2,
+    "stock": 0,
+    "img": "https://www.istore.bg/storage/products/Apple-Watch-Series-10-GPS-Cellular-46mm-Rose-Gold-Aluminium-Case-with-Light-Blush-Sport-Band-1.jpg",
+    "brand": "Apple",
+    "description": "Đồng hồ thông minh thuộc dòng Apple Watch Series 10.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c2d2f5c01cc585070b8c106b"
+    },
+    "name": "Samsung Galaxy Watch7",
+    "category": "Đồng hồ thông minh",
+    "price": 4990000,
+    "original": 4990000,
+    "off": 0,
+    "stock": 9,
+    "img": "https://www.samsungmobile.co.il/pub/media/catalog/product/cache/a1ead2c2961e2ce13911c89cbb3a882f/c/0/C000001035_1-17206148132891701.jpg",
+    "brand": "Samsung",
+    "description": "Đồng hồ thông minh thuộc dòng Galaxy Watch7.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7c2179f7a8a42ee7cc6c4552"
+    },
+    "name": "Logitech MX Master 3S",
+    "category": "Phụ kiện",
+    "price": 2290000,
+    "original": 2390000,
+    "off": 4,
+    "stock": 13,
+    "img": "https://www.phongcachxanh.vn/cdn/shop/products/chu-t-khong-day-logitech-mx-master-3s-wireless-37779554468085.jpg?v=1677212102&width=1600",
+    "brand": "Logitech",
+    "description": "Chuột không dây dùng cho công việc.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "83556bba3e33ecac2f1a5d0c"
+    },
+    "name": "Logitech MX Keys S",
+    "category": "Phụ kiện",
+    "price": 2490000,
+    "original": 2490000,
+    "off": 0,
+    "stock": 66,
+    "img": "https://cloud-nucleus.com/api/NucleusImage/GetImage/920011587/1.png",
+    "brand": "Logitech",
+    "description": "Bàn phím không dây có đèn nền.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "051b28eb4cd34d7eee2c3570"
+    },
+    "name": "Logitech G502 HERO",
+    "category": "Phụ kiện",
+    "price": 850000,
+    "original": 1150000,
+    "off": 26,
+    "stock": 9,
+    "img": "https://www.pixelzones.com/cdn/shop/files/Logitech_G502_Hero_Gaming_Mouse.jpg?v=1744804538&width=1946",
+    "brand": "Logitech",
+    "description": "Chuột gaming có dây thuộc dòng Logitech G.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ede62e4ef10142261e59b385"
+    },
+    "name": "Logitech G305",
+    "category": "Phụ kiện",
+    "price": 790000,
+    "original": 790000,
+    "off": 0,
+    "stock": 13,
+    "img": "https://cdn.mwave.com.au/images/400/logitech_g305_lightspeed_wireless_gaming_mouse_black_ac37722_4.jpg",
+    "brand": "Logitech",
+    "description": "Chuột gaming dùng kết nối LIGHTSPEED.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e12a0d8663c506f9221610a"
+    },
+    "name": "Samsung T7 Shield",
+    "category": "Phụ kiện",
+    "price": 3290000,
+    "original": 3440000,
+    "off": 4,
+    "stock": 4,
+    "img": "https://pmdshop.uk/cdn/shop/files/SamsungPortableSSDT7Shield_3_1200x1200.png?v=1695043172",
+    "brand": "Samsung",
+    "description": "Ổ SSD di động có vỏ bảo vệ, kết nối USB-C.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "237f117a53b14ef6a38a127f"
+    },
+    "name": "Canon EOS R10",
+    "category": "Camera",
+    "price": 15990000,
+    "original": 16490000,
+    "off": 3,
+    "stock": 27,
+    "img": "https://www.pictureline.com/cdn/shop/products/EOS-R10-Mirrorless-Digital-Camera-Body-1_4ae2ffd0-02cb-4dd1-9a82-11a69825b79d.jpg?v=1653407959&width=1200",
+    "brand": "Canon",
+    "description": "Máy ảnh mirrorless APS-C ngàm RF.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1b4fb0ee22d285cc9f5e30c6"
+    },
+    "name": "Canon EOS R7",
+    "category": "Camera",
+    "price": 26990000,
+    "original": 28490000,
+    "off": 5,
+    "stock": 66,
+    "img": "https://img.bonne-promo.com/guide/19305/canon-eos-r7-boitier-nu-appareil-photo-hybride-1.png",
+    "brand": "Canon",
+    "description": "Máy ảnh mirrorless APS-C thuộc hệ Canon EOS R.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9eb247e8884459c91d2b8df1"
+    },
+    "name": "Canon EOS R8",
+    "category": "Camera",
+    "price": 27990000,
+    "original": 29490000,
+    "off": 5,
+    "stock": 27,
+    "img": "https://cdn.awsli.com.br/2500x2500/2607/2607202/produto/218990219/canon_eos_r8_01-44lf1514e0.jpeg",
+    "brand": "Canon",
+    "description": "Máy ảnh mirrorless full-frame ngàm RF.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "59d48ccbdd7c4cc509866093"
+    },
+    "name": "Sony ZV-E10 II",
+    "category": "Camera",
+    "price": 21990000,
+    "original": 22990000,
+    "off": 4,
+    "stock": 2,
+    "img": "https://gzhls.at/pix/ef/b2/efb2bc3a6e357353-n.webp",
+    "brand": "Sony",
+    "description": "Máy ảnh mirrorless APS-C hướng đến quay vlog.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a11667b3d213abcc1d44676e"
+    },
+    "name": "Sony Alpha 6700",
+    "category": "Camera",
+    "price": 29990000,
+    "original": 29990000,
+    "off": 0,
+    "stock": 0,
+    "img": "https://www.camtecphoto.com/userdata/products/5725/a6700-front-34.jpg",
+    "brand": "Sony",
+    "description": "Máy ảnh mirrorless APS-C ngàm Sony E.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "085843e04bd611fd68699e5d"
+    },
+    "name": "ASUS ProArt PA278QV",
+    "category": "Màn hình",
+    "price": 6990000,
+    "original": 7090000,
+    "off": 1,
+    "stock": 27,
+    "img": "https://sg.store.asus.com/media/catalog/product/p/r/proart_display_pa278qv_main.png",
+    "brand": "ASUS",
+    "description": "Màn hình IPS 27 inch QHD thuộc dòng ProArt.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2718697f2e1270f11e5547ed"
+    },
+    "name": "ASUS TUF VG27AQ",
+    "category": "Màn hình",
+    "price": 5990000,
+    "original": 5990000,
+    "off": 0,
+    "stock": 13,
+    "img": "https://www.asus.com/media/global/gallery/85ssljuw0k4w2hbp_setting_xxx_0_90_end_1000.png",
+    "brand": "ASUS",
+    "description": "Màn hình IPS 27 inch QHD thuộc dòng TUF Gaming.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "338ca92d32ece81cf5774be4"
+    },
+    "name": "Dell UltraSharp U2723QE",
+    "category": "Màn hình",
+    "price": 12490000,
+    "original": 13490000,
+    "off": 7,
+    "stock": 66,
+    "img": "https://focuscamera.com/cdn/shop/files/3027579.jpg?crop=center&height=1200&v=1752072743&width=1200",
+    "brand": "Dell",
+    "description": "Màn hình 27 inch 4K có hub USB-C.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d167b59a3a2df62d2f732f45"
+    },
+    "name": "LG 27GP850-B",
+    "category": "Màn hình",
+    "price": 6990000,
+    "original": 6990000,
+    "off": 0,
+    "stock": 35,
+    "img": "https://www.lg.com/content/dam/channel/wcms/hk_en/images/monitor/27gp850-b_ahk_echk_hk_en_c/gallery/large04.jpg",
+    "brand": "LG",
+    "description": "Màn hình UltraGear 27 inch QHD dùng tấm nền Nano IPS.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2770a4e6d1809075b835f328"
+    },
+    "name": "Samsung Odyssey G5 G55C",
+    "category": "Màn hình",
+    "price": 5990000,
+    "original": 5990000,
+    "off": 0,
+    "stock": 4,
+    "img": "https://cdn.idealo.com/folder/Product/203873/7/203873734/s4_produktbild_max_1/samsung-odyssey-g55c-s32cg554eu.jpg",
+    "brand": "Samsung",
+    "description": "Màn hình cong QHD thuộc dòng Odyssey G5.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  }
+]

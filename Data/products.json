@@ -1,0 +1,506 @@
+[
+  {
+    "_id": {
+      "$oid": "beef00020000000000000001"
+    },
+    "name": "iPhone 13 Pro",
+    "category": "Điện thoại",
+    "price": 12990000,
+    "original": 14440000,
+    "off": 10,
+    "stock": 11,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Điện thoại iPhone 13 Pro. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000002"
+    },
+    "name": "iPhone X",
+    "category": "Điện thoại",
+    "price": 3990000,
+    "original": 4440000,
+    "off": 10,
+    "stock": 12,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Điện thoại iPhone X. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000003"
+    },
+    "name": "Oppo A57",
+    "category": "Điện thoại",
+    "price": 2990000,
+    "original": 3330000,
+    "off": 10,
+    "stock": 13,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
+    "brand": "Oppo",
+    "description": "Điện thoại Oppo A57. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000004"
+    },
+    "name": "Oppo F19 Pro Plus",
+    "category": "Điện thoại",
+    "price": 4990000,
+    "original": 5550000,
+    "off": 10,
+    "stock": 14,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+    "brand": "Oppo",
+    "description": "Điện thoại Oppo F19 Pro Plus. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000005"
+    },
+    "name": "Realme C35",
+    "category": "Điện thoại",
+    "price": 2790000,
+    "original": 3100000,
+    "off": 10,
+    "stock": 0,
+    "img": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
+    "brand": "Realme",
+    "description": "Điện thoại Realme C35. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000006"
+    },
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "category": "Laptop",
+    "price": 29990000,
+    "original": 33330000,
+    "off": 10,
+    "stock": 16,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Laptop Apple MacBook Pro 14 Inch Space Grey. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000007"
+    },
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "category": "Laptop",
+    "price": 32990000,
+    "original": 36660000,
+    "off": 10,
+    "stock": 17,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
+    "brand": "Asus",
+    "description": "Laptop Asus Zenbook Pro Dual Screen Laptop. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000008"
+    },
+    "name": "Huawei Matebook X Pro",
+    "category": "Laptop",
+    "price": 22990000,
+    "original": 25550000,
+    "off": 10,
+    "stock": 3,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+    "brand": "Huawei",
+    "description": "Laptop Huawei Matebook X Pro. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000009"
+    },
+    "name": "Lenovo Yoga 920",
+    "category": "Laptop",
+    "price": 14990000,
+    "original": 16660000,
+    "off": 10,
+    "stock": 19,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+    "brand": "Lenovo",
+    "description": "Laptop Lenovo Yoga 920. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000a"
+    },
+    "name": "New DELL XPS 13 9300 Laptop",
+    "category": "Laptop",
+    "price": 19990000,
+    "original": 22220000,
+    "off": 10,
+    "stock": 20,
+    "img": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+    "brand": "Dell",
+    "description": "Laptop New DELL XPS 13 9300 Laptop. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000b"
+    },
+    "name": "iPad Mini 2021 Starlight",
+    "category": "Máy tính bảng",
+    "price": 8990000,
+    "original": 9990000,
+    "off": 10,
+    "stock": 21,
+    "img": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Máy tính bảng iPad Mini 2021 Starlight. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000c"
+    },
+    "name": "Samsung Galaxy Tab S8 Plus Grey",
+    "category": "Máy tính bảng",
+    "price": 14990000,
+    "original": 16660000,
+    "off": 10,
+    "stock": 22,
+    "img": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp",
+    "brand": "Samsung",
+    "description": "Máy tính bảng Samsung Galaxy Tab S8 Plus Grey. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000d"
+    },
+    "name": "Samsung Galaxy Tab White",
+    "category": "Máy tính bảng",
+    "price": 3990000,
+    "original": 4440000,
+    "off": 10,
+    "stock": 23,
+    "img": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp",
+    "brand": "Samsung",
+    "description": "Máy tính bảng Samsung Galaxy Tab White. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000e"
+    },
+    "name": "Amazon Echo Plus",
+    "category": "Âm thanh",
+    "price": 1990000,
+    "original": 2220000,
+    "off": 10,
+    "stock": 24,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+    "brand": "Amazon",
+    "description": "Âm thanh Amazon Echo Plus. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef0002000000000000000f"
+    },
+    "name": "Apple Airpods",
+    "category": "Âm thanh",
+    "price": 2490000,
+    "original": 2770000,
+    "off": 10,
+    "stock": 25,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Âm thanh Apple Airpods. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000010"
+    },
+    "name": "Apple AirPods Max Silver",
+    "category": "Âm thanh",
+    "price": 9990000,
+    "original": 11100000,
+    "off": 10,
+    "stock": 26,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Âm thanh Apple AirPods Max Silver. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000011"
+    },
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "category": "Âm thanh",
+    "price": 2290000,
+    "original": 2550000,
+    "off": 10,
+    "stock": 27,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Âm thanh Apple HomePod Mini Cosmic Grey. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000012"
+    },
+    "name": "Apple iPhone Charger",
+    "category": "Phụ kiện",
+    "price": 490000,
+    "original": 550000,
+    "off": 11,
+    "stock": 28,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Phụ kiện Apple iPhone Charger. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000013"
+    },
+    "name": "Apple MagSafe Battery Pack",
+    "category": "Phụ kiện",
+    "price": 1990000,
+    "original": 2220000,
+    "off": 10,
+    "stock": 29,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Phụ kiện Apple MagSafe Battery Pack. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000014"
+    },
+    "name": "Apple Watch Series 4 Gold",
+    "category": "Đồng hồ thông minh",
+    "price": 3490000,
+    "original": 3880000,
+    "off": 10,
+    "stock": 30,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Đồng hồ thông minh Apple Watch Series 4 Gold. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000015"
+    },
+    "name": "Beats Flex Wireless Earphones",
+    "category": "Âm thanh",
+    "price": 1190000,
+    "original": 1330000,
+    "off": 11,
+    "stock": 31,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/thumbnail.webp",
+    "brand": "Beats",
+    "description": "Âm thanh Beats Flex Wireless Earphones. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000016"
+    },
+    "name": "iPhone 12 Silicone Case with MagSafe Plum",
+    "category": "Phụ kiện",
+    "price": 390000,
+    "original": 440000,
+    "off": 11,
+    "stock": 32,
+    "img": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp",
+    "brand": "Apple",
+    "description": "Phụ kiện iPhone 12 Silicone Case with MagSafe Plum. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000017"
+    },
+    "name": "Canon EOS R50 kèm RF-S 18-45mm",
+    "category": "Camera",
+    "price": 17990000,
+    "original": 19990000,
+    "off": 10,
+    "stock": 33,
+    "img": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_175914102?align=center&ex=697&ey=523&format=webp&quality=60&resizesource=&sp=yes&strip=yes&trim=yes&unsharp=0.5x0.5&x=697&y=523",
+    "brand": "Canon",
+    "description": "Camera Canon EOS R50 kèm RF-S 18-45mm. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00020000000000000018"
+    },
+    "name": "Màn hình Samsung T350 24 inch",
+    "category": "Màn hình",
+    "price": 2490000,
+    "original": 2770000,
+    "off": 10,
+    "stock": 34,
+    "img": "https://imgs.pontofrio.com.br/55028105/1xg.jpg?imwidth=1000",
+    "brand": "Samsung",
+    "description": "Màn hình Màn hình Samsung T350 24 inch. Dữ liệu demo cửa hàng điện tử; giá và tồn kho là số liệu minh họa, không phải báo giá thực tế.",
+    "show": true,
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  }
+]

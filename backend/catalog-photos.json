@@ -1,0 +1,332 @@
+[
+  {
+    "category": "Điện thoại",
+    "name": "Samsung Galaxy A36 5G",
+    "img": "/product-photos/samsung-galaxy-a36-5g.webp",
+    "source": "https://www.tchibo.de/products/219371187131/samsung-galaxy-a36-5g-128gb"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Google Pixel 9a",
+    "img": "/product-photos/google-pixel-9a.jpg",
+    "source": "https://www.johnlewis.com/google-pixel-9a-smartphone-android-6-3-5g-sim-free-128gb/iris/p113480497"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Xiaomi Redmi Note 14",
+    "img": "/product-photos/xiaomi-redmi-note-14.jpg",
+    "source": "https://www.liverpool.com.mx/tienda/pdp/xiaomi-redmi-note-14-amoled-6-6-pulgadas/99982187547"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Xiaomi 15",
+    "img": "/product-photos/xiaomi-15.png",
+    "source": "https://www.red-by-sfr.fr/telephones/XIAOMI-15/"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Vivo V50 5G",
+    "img": "/product-photos/vivo-v50-5g.jpg",
+    "source": "https://hifimediastore.com/en/products/vivo-v50-5g-12gb-512gb-purple-mist-purple-dual-sim"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Honor X9c 5G",
+    "img": "/product-photos/honor-x9c-5g.jpg",
+    "source": "https://www.edgars.co.za/products/vc-honor-x9c-ds-blk-40372501-none"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Motorola Moto G85 5G",
+    "img": "/product-photos/motorola-moto-g85-5g.jpg",
+    "source": "https://www.trendyol.com/el/motorola/moto-g85-256gb-8gb-ram-dipli-sim-surf-blue-p-1065440696"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "iPhone 14",
+    "img": "/product-photos/iphone-14.jpg",
+    "source": "https://myline.ge/mobiluri-telefonebi/apple-iphone-14-starlight/"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Samsung Galaxy A26 5G",
+    "img": "/product-photos/samsung-galaxy-a26-5g.png",
+    "source": "https://newark.cl/tienda/samsung-galaxy-a26/"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Xiaomi Redmi Note 14 Pro 5G",
+    "img": "/product-photos/xiaomi-redmi-note-14-pro-5g.png",
+    "source": "https://boutique.orange.fr/nouveautes/xiaomi/"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Oppo A5 Pro 5G",
+    "img": "/product-photos/oppo-a5-pro-5g.jpg",
+    "source": "https://online.senao.com.tw/Mart/1372235"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Vivo V40 5G",
+    "img": "/product-photos/vivo-v40-5g.png",
+    "source": "https://vivoonlinestore.com/products/v40"
+  },
+  {
+    "category": "Điện thoại",
+    "name": "Honor 200 5G",
+    "img": "/product-photos/honor-200-5g.png",
+    "source": "https://mobilemasr.com/en/guide/honor-200"
+  },
+  {
+    "category": "Laptop",
+    "name": "MacBook Air 15 M4",
+    "img": "/product-photos/macbook-air-15-m4.jpg",
+    "source": "https://importadorausabrasil.com.br/products/macbook-air-m4-24gb-ram-2tb-ssd-pronta-entrega-apple"
+  },
+  {
+    "category": "Laptop",
+    "name": "ASUS Vivobook S 14 OLED",
+    "img": "/product-photos/asus-vivobook-s-14-oled.png",
+    "source": "https://www.tonerpartner.cz/asus-vivobook-s-14-oled-ryzen-7-8845hs-16gb-1tb-ssd-14-amp-quot-wuxga-oled-2y-pur-win-11-home-cerna-298870cz/"
+  },
+  {
+    "category": "Laptop",
+    "name": "Lenovo IdeaPad Slim 5",
+    "img": "/product-photos/lenovo-ideapad-slim-5.png",
+    "source": "https://www.mediaworld.it/it/product/_lenovo-ideapad-slim-5-16-processore-intelr-core-i7-intel-core-i7-13620h-intelr-ram-16-gb-windows-11-home-531750.html"
+  },
+  {
+    "category": "Laptop",
+    "name": "Acer Swift Go 14",
+    "img": "/product-photos/acer-swift-go-14.png",
+    "source": "https://www.croma.com/acer-swift-go-14-intel-core-ultra-5-touchscreen-thin-and-light-laptop-16gb-512gb-ssd-windows-11-home-14-inch-wuxga-ips-display-ms-office-pure-silver-1-32-kg-/p/304458"
+  },
+  {
+    "category": "Laptop",
+    "name": "HP Pavilion Plus 14",
+    "img": "/product-photos/hp-pavilion-plus-14.jpg",
+    "source": "https://www.costco.com.au/Computers/Laptops/Windows-Laptops/HP-14-Inch-Pavilion-Plus-Laptop-14-EW1080TU/p/207091"
+  },
+  {
+    "category": "Laptop",
+    "name": "MSI Katana 15",
+    "img": "/product-photos/msi-katana-15.png",
+    "source": "https://xgear.net/products/laptop-gaming-msi-katana-15-b13udxk-2269vn"
+  },
+  {
+    "category": "Máy tính bảng",
+    "name": "iPad Air 11 M3",
+    "img": "/product-photos/ipad-air-11-m3.jpg",
+    "source": "https://item.rakuten.co.jp/mywit/ipadair711ina3267gen-nn/"
+  },
+  {
+    "category": "Máy tính bảng",
+    "name": "iPad Pro 11 M4",
+    "img": "/product-photos/ipad-pro-11-m4.png",
+    "source": "https://vender.vn/products/ipad-pro-11-inch-m4-2024-512gb-wifi-5g-cellular-chinh-hang-viet-nam"
+  },
+  {
+    "category": "Máy tính bảng",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "img": "/product-photos/samsung-galaxy-tab-s9-fe.png",
+    "source": "https://www.firstshop.co.za/products/samsung-galaxy-tab-s9-fe-10-9-inch-wuxga-tablet-octa-core-128gb-ssd-6gb-ram-wi-fi-android-sm-x510nzaaafa-184869"
+  },
+  {
+    "category": "Máy tính bảng",
+    "name": "Xiaomi Redmi Pad Pro",
+    "img": "/product-photos/xiaomi-redmi-pad-pro.webp",
+    "source": "https://www.lmt.lv/en/shop/all-tablets/redmi-pad-pro"
+  },
+  {
+    "category": "Máy tính bảng",
+    "name": "Lenovo Tab M11",
+    "img": "/product-photos/lenovo-tab-m11.jpg",
+    "source": "https://www.jumbo.ae/lenovo-tab-m11-tb-zadb0031ae-mediatek-helio-g88-4gb-ram-128gb-ssd-integrated-arm-mali-g52-mc2-gpu-11-android-13-tablet-luna-grey.html"
+  },
+  {
+    "category": "Máy tính bảng",
+    "name": "Honor Pad 9",
+    "img": "/product-photos/honor-pad-9.png",
+    "source": "https://www.honor.com/kw-en/tablets/honor-pad-9/spec/"
+  },
+  {
+    "category": "Âm thanh",
+    "name": "Sony WH-CH720N",
+    "img": "/product-photos/sony-wh-ch720n.jpg",
+    "source": "https://asashi.com.my/english/ws.item/58953/headset/wireless/sony-wh-ch720n-%28black%29-wireless-noise-cancelling-headphones-%281-yrs-manufacturer-warranty%29---so-ce-wh-ch720nGb/"
+  },
+  {
+    "category": "Âm thanh",
+    "name": "JBL Go 4",
+    "img": "/product-photos/jbl-go-4.png",
+    "source": "https://uk.jbl.com/bluetooth-speakers/GO-4.html"
+  },
+  {
+    "category": "Âm thanh",
+    "name": "JBL Tune 770NC",
+    "img": "/product-photos/jbl-tune-770nc.jpg",
+    "source": "https://www.thevolume.store/th/product/1045933/product-1045933"
+  },
+  {
+    "category": "Âm thanh",
+    "name": "Bose QuietComfort Ultra Headphones",
+    "img": "/product-photos/bose-quietcomfort-ultra-headphones.jpg",
+    "source": "https://www.bestbuy.com/site/reviews/bose-quietcomfort-ultra-wireless-noise-cancelling-over-the-ear-headphones-deep-plum/6620217"
+  },
+  {
+    "category": "Âm thanh",
+    "name": "Soundcore Liberty 4 NC",
+    "img": "/product-photos/soundcore-liberty-4-nc.jpg",
+    "source": "https://www.jakmall.com/anker-indonesia-official/promo-earphone-tws-anker-soundcore-liberty-4-nc-a3947-putih"
+  },
+  {
+    "category": "Âm thanh",
+    "name": "Marshall Emberton II",
+    "img": "/product-photos/marshall-emberton-ii.png",
+    "source": "https://www.croma.com/marshall-emberton-ii-20w-portable-bluetooth-speaker-ip67-water-resistant-ip67-dust-resistant-stereo-channel-brass-cream-/p/258434"
+  },
+  {
+    "category": "Đồng hồ thông minh",
+    "name": "Apple Watch SE 2",
+    "img": "/product-photos/apple-watch-se-2.jpg",
+    "source": "https://compumarket.com.py/producto/52223/apple-watch-se-2-40mm-gps-sm-starlight-alu-star-sport-band-mxef3lla?srsltid=AfmBOoqFxMMET7f6fCylOSXO5QZWH2gLtRSIk5xr7z34slj2Lr3kM4kC"
+  },
+  {
+    "category": "Đồng hồ thông minh",
+    "name": "Apple Watch Ultra 2",
+    "img": "/product-photos/apple-watch-ultra-2.jpg",
+    "source": "https://istyle.rs/products/apple-watch-ultra2-cellular-49mm-titanium-case-with-blue-ocean-band-mreg3se-a"
+  },
+  {
+    "category": "Đồng hồ thông minh",
+    "name": "Samsung Galaxy Watch FE",
+    "img": "/product-photos/samsung-galaxy-watch-fe.webp",
+    "source": "https://ipon.hu/shop/termek/samsung-sm-r861-galaxy-watch-fe-bluetooth-40-mm-fekete/2288632"
+  },
+  {
+    "category": "Đồng hồ thông minh",
+    "name": "Garmin Forerunner 265",
+    "img": "/product-photos/garmin-forerunner-265.webp",
+    "source": "https://www.power.se/mobil-och-foto/smartwatch-och-wearables/sportklockor/garmin-forerunner-265-gps-loparsmartwatch-svart/p-3781540/"
+  },
+  {
+    "category": "Đồng hồ thông minh",
+    "name": "Huawei Watch GT 5",
+    "img": "/product-photos/huawei-watch-gt-5.png",
+    "source": "https://canaltech.com.br/produto/huawei/watch-gt-5/"
+  },
+  {
+    "category": "Đồng hồ thông minh",
+    "name": "Amazfit Bip 5",
+    "img": "/product-photos/amazfit-bip-5.jpg",
+    "source": "https://shopee.com.my/Amazfit-Bip-5-46mm-Smart-Watch-with-GPS-A-Huge-Choice-of-Apps-and-Games-Bluetooth-Call-Android-iOS-24h-Health-Monitor-i.68425014.23473255157"
+  },
+  {
+    "category": "Phụ kiện",
+    "name": "Sạc Anker 735 GaNPrime",
+    "img": "/product-photos/sac-anker-735-ganprime.jpg",
+    "source": "https://shopee.vn/C%E1%BB%A7-S%E1%BA%A1c-Anker-735-GaNPrime-65W-A2668-3-c%E1%BB%95ng-s%E1%BA%A1c%282-PD-1-USB%29-h%E1%BB%97-tr%E1%BB%A3-s%E1%BA%A1c-nhanh-cho-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-M%C3%A1y-t%C3%ADnh-b%E1%BA%A3ng-Macbook-i.692500320.22174764322"
+  },
+  {
+    "category": "Phụ kiện",
+    "name": "Pin dự phòng Anker Nano 10.000 mAh",
+    "img": "/product-photos/pin-du-phong-anker-nano-10-000-mah.png",
+    "source": "https://techcent.vn/pin-du-phong-anker-nano-10000-30w-built-in-usb-c-connector-a1259"
+  },
+  {
+    "category": "Phụ kiện",
+    "name": "Chuột Logitech Pebble 2 M350s",
+    "img": "/product-photos/chuot-logitech-pebble-2-m350s.jpg",
+    "source": "https://www.blibli.com/p/logitech-pebble-2-m350s-mouse-wireless-bluetooth-slim-silent-m350-s/ps--PRN-10729-01697"
+  },
+  {
+    "category": "Phụ kiện",
+    "name": "Bàn phím Keychron K2 Pro",
+    "img": "/product-photos/ban-phim-keychron-k2-pro.jpg",
+    "source": "https://memoryzone.com.vn/ban-phim-co-khong-day-keychron-k2-pro-rgb-hotswap?srsltid=AfmBOoquWKhG4Nsjdg4VOcHDc2R2EQC-u4vcZ2umB8GEfSg8-bD7NPUR"
+  },
+  {
+    "category": "Phụ kiện",
+    "name": "SSD SanDisk Extreme Portable 1TB",
+    "img": "/product-photos/ssd-sandisk-extreme-portable-1tb.jpg",
+    "source": "https://jumbosouq.com/en/sandisk-extreme-portable-hard-disk-1tb-sdssde61-1t00-g25"
+  },
+  {
+    "category": "Phụ kiện",
+    "name": "Hub USB-C UGREEN Revodok 6 trong 1",
+    "img": "/product-photos/hub-usb-c-ugreen-revodok-6-trong-1.png",
+    "source": "https://www.ugreen.com/en-au/products/au-45363"
+  },
+  {
+    "category": "Camera",
+    "name": "Canon EOS R100",
+    "img": "/product-photos/canon-eos-r100.webp",
+    "source": "https://www.power.no/mobil-og-foto/kamera/speilreflekskamera/canon-eos-r100-speilloest-kamera-rf-s-18-45-mm-is-stm-objektiv/p-2234182/"
+  },
+  {
+    "category": "Camera",
+    "name": "Sony Alpha 7 IV",
+    "img": "/product-photos/sony-alpha-7-iv.jpg",
+    "source": "https://www.walmart.com/ip/609070268"
+  },
+  {
+    "category": "Camera",
+    "name": "Fujifilm X-T50",
+    "img": "/product-photos/fujifilm-x-t50.webp",
+    "source": "https://www.johnlewis.com/fujifilm-x-t50-compact-system-camera-with-xf-16-50mm-lens-6k-4k-ultra-hd-40-2mp-bluetooth-oled-evf-3-lcd-tilting-touch-screen/p112032493"
+  },
+  {
+    "category": "Camera",
+    "name": "Nikon Z30",
+    "img": "/product-photos/nikon-z30.jpg",
+    "source": "https://www.adorama.com/lists/lightweight-cameras-for-travel"
+  },
+  {
+    "category": "Camera",
+    "name": "DJI Osmo Pocket 3",
+    "img": "/product-photos/dji-osmo-pocket-3.jpg",
+    "source": "https://www.hobbydynamics.ph/products/dji-osmo-pocket-3-standard-package"
+  },
+  {
+    "category": "Camera",
+    "name": "GoPro HERO13 Black",
+    "img": "/product-photos/gopro-hero13-black.jpg",
+    "source": "https://www.auchan.fr/gopro-camera-sport-hero13-black/pr-5c60ac92-d94e-44b7-8535-339aeb0d7969"
+  },
+  {
+    "category": "Màn hình",
+    "name": "Dell S2722QC",
+    "img": "/product-photos/dell-s2722qc.webp",
+    "source": "https://www.multitronic.fi/en/products/2971607"
+  },
+  {
+    "category": "Màn hình",
+    "name": "LG 27UP850-W",
+    "img": "/product-photos/lg-27up850-w.jpg",
+    "source": "https://hacom.vn/man-hinh-lg-27up850-w-27-inch-uhd-ips-60hz-5ms"
+  },
+  {
+    "category": "Màn hình",
+    "name": "Samsung Smart Monitor M7 32 inch",
+    "img": "/product-photos/samsung-smart-monitor-m7-32-inch.jpg",
+    "source": "https://www.laptopsdirect.co.uk/refurbished-samsung-m7-32-smart-monitor-with-mobile-connectivity-a1-ls32am700uuxen/version.asp"
+  },
+  {
+    "category": "Màn hình",
+    "name": "ASUS TUF Gaming VG249Q3A",
+    "img": "/product-photos/asus-tuf-gaming-vg249q3a.jpg",
+    "source": "https://www.alternate.de/ASUS/TUF-Gaming-VG249Q3A-Gaming-Monitor/html/product/100004296"
+  },
+  {
+    "category": "Màn hình",
+    "name": "AOC 24G4",
+    "img": "/product-photos/aoc-24g4.png",
+    "source": "https://www.aoc.com/sg/gaming/monitors/24g4"
+  },
+  {
+    "category": "Màn hình",
+    "name": "BenQ MOBIUZ EX240",
+    "img": "/product-photos/benq-mobiuz-ex240.jpg",
+    "source": "https://www.bestbuy.com/site/questions/benq-mobiuz-ex240-23-8-ips-led-freesync-gaming-monitor-hdmi-dp-usb-type-b-usb-3-0-black/6539684"
+  }
+]

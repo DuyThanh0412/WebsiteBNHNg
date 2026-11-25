@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "beef00030000000000000001"
+    },
+    "code": "ELEC10",
+    "name": "Ưu đãi điện tử 10%",
+    "type": "Giảm giá",
+    "value": 10,
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-21",
+    "status": "active",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00030000000000000002"
+    },
+    "code": "ELECSHIP",
+    "name": "Miễn phí giao hàng điện tử",
+    "type": "Miễn phí vận chuyển",
+    "value": 0,
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-21",
+    "status": "active",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beef00030000000000000003"
+    },
+    "code": "ELECENDED",
+    "name": "Ưu đãi điện tử hết hạn",
+    "type": "Giảm giá",
+    "value": 15,
+    "startDate": "2026-09-22",
+    "endDate": "2026-10-21",
+    "status": "ended",
+    "createdAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-22T08:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "548091f843e4a77eab91996c"
+    },
+    "code": "BBMTEST05",
+    "name": "Ưu đãi điện tử 5%",
+    "type": "Giảm giá",
+    "value": 5,
+    "startDate": "2026-10-22",
+    "endDate": "2026-11-30",
+    "status": "active",
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0cbc27c6ecd7fe387fdf8d7d"
+    },
+    "code": "BBMTESTSHIP",
+    "name": "Miễn phí giao hàng",
+    "type": "Miễn phí vận chuyển",
+    "value": 0,
+    "startDate": "2026-10-22",
+    "endDate": "2026-11-30",
+    "status": "active",
+    "createdAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-11-21T10:00:00.000Z"
+    }
+  }
+]
