@@ -11,7 +11,7 @@ Giải nén rồi dùng Add Data > Import JSON trong từng collection:
 2. products.json vào products
 3. promotions.json vào promotions
 4. orders.json vào orders
-Mỗi file là một mảng MongoDB Extended JSON. bigbangmart-electronics.json là bản tổng hợp dùng để xem hoặc trao đổi dữ liệu.
+Mỗi file là một mảng MongoDB Extended JSON.
 
 NẾU ĐÃ NẠP DATA.RAR
 Dùng script để thêm các bản ghi mới theo _id, bỏ qua bản ghi gốc đã có:

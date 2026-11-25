@@ -12,7 +12,6 @@ categories.json -> categories
 promotions.json -> promotions
 orders.json -> orders
 Import products trước orders. Mỗi phần tử mảng là một document.
-bigbangmart-electronics.json là bản tổng hợp, KHÔNG import toàn bộ vào một collection.
 Các ID là ObjectId ở dạng Extended JSON. Import lại có thể báo trùng ID.
 
 CÁCH NẠP TỰ ĐỘNG
